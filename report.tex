@@ -21,7 +21,7 @@
 	\centering
 	\pgfornament[width=12cm,color=teal]{84}\\
 	\vspace{1cm}
-	\fontsize{50}{50} \selectfont {정보통신 수학 및 실습\\3월 3주차 Homework}\\
+	\fontsize{50}{50} \selectfont {정보통신 수학 및 실습\\Homework}\\
 		\pgfornament[width=12cm,color=teal]{88}\\
 	\vfill}
 \author{
@@ -45,27 +45,35 @@
 \pagenumbering{gobble}
 \noindent
 \lstset{language=matlab, columns=flexible, tabsize=4, frame=shadowbox, showstringspaces=false, breaklines=true, upquote=true, basicstyle=\normalsize}
+
+\renewcommand{\thesubsubsection}{\alph{subsubsection})}
+\renewcommand{\thesubsection}{\arabic{subsection}.}
 \newpage
-\section{Chapter 1 Homework}
+\section*{Chapter 3 Homework}
 
-\subsection{Simplify the following terms.}
+\subsection{Simplify the following equations.}
 
-(a) $(\sqrt{x})^4 = x^2$\\
-(b) $\dfrac{x^{-1}y}{xy^2}=\dfrac{1}{x^2y}$
+\subsubsection{$\cos(100\pi t)\cos(500\pi t)$} 
+\subsubsection{$4sin(200\pi t)cos(300\pi t)$} 
 
-\subsection{Factorize the following polynomials.}
-(a) $2x^3+x^2-2x-1 = (x+1)(2x+1)(x-1)$\\
-(b) $x^4-1=(x^2+1)(x+1)(x-1)$
+\subsection{Find the frequency of the following signals.} 
+\subsubsection{$\sin(t)$} 
+\subsubsection{$\cos(600\pi t)$} 
 
-\subsection{Find the value of y. }
-(a) $y=2x^2+3x+2, x=-3\\
-\		\Longrightarrow y=11$
+\subsection{Evaluate the following functions.} 
+\subsubsection{$sin(\pi /4)$} 
+\subsubsection{$tan(\pi )$} 
 
-\subsection{There are rabbits and chickens in a nest.  Total number of legs
-	are 18 and that of heads are 5.  How many rabbits and chickens
-	are there in the nest?}  
-$4x+2y=18\\x+y=5\\
-\therefore x=4, y=1$
-\newpage
+\subsection{Let the information signal $m(t)=4\sin (200\pi t)$ \\
+	and the carrier signal $c(t)=\cos(2\times 10^6\pi t)$.\\
+Simplify the transmission signal $x(t)=m(t)c(t)$ and	find its frequencies. \\
+ Plot the magnitude of each frequency in the	frequency domain.} 
+(a) $\log 3 + \log 10 = \log 30$\\
+(b) $\log 20 - \log 2 = \log 10 $
+
+\subsection{Find the power gain in dB}
+(a) Pi=1W, Po=100W\\ $10\log(100/1) = 20 $\\
+(b) Pi=1W, Po=1W\\ $10\log 1 = 0$
+
 
 \end{document}
