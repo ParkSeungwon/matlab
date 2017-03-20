@@ -49,47 +49,56 @@
 \renewcommand{\thesubsection}{\arabic{subsection}.}
 \newpage
 \section*{Chapter 3. Lab Assignment}
-\subsection{Compute the following functions using MATLAB:} 
+\subsection{Plot the following cosine functions using MATLAB and write down their frequencies.  You must define the boundaries and the intervals of variable t properly to obtain at least one cycle of the function.  [Hint: use t such that $wt > 2\pi\times n$, where n is the number of cycles in the plot.]} 
 
-\subsubsection{$\log_{10}{10000}=4$}
+\subsubsection{$\cos(5t)$}
+$2\pi f = 5\\
+\therefore f = \dfrac{5}{2\pi}$
 
-\subsubsection{$\log_e{e^{20}}=20$}
-\subsubsection{$\log_{5}{125}=3$}
+\includegraphics[width=0.8\textwidth]{a.eps}
 
-\subsection{Compute the following functions when x = 3 and y = 2: (Write your MATLAB code, too)} 
+\subsubsection{$\cos(2\pi 100t)$}
+$2\pi f = 2\pi 100\\
+\therefore f = 100$
 
-\subsubsection{$\dfrac{1}{2}\log_{10}x^2-\dfrac{1}{2}\log_{10}y^2$}
+\includegraphics[width=0.8\textwidth]{b.eps}
+
+\subsection{If the sound signal is defined as $m(t)=\cos(2\pi(10)t)$ and the carrier signals is $\cos(2\pi (300)t)$, answer the following questions: (Hint: use t=[0:0.0001:1])} 
+
 \begin{lstlisting}
-	>> x=3,y=2
-	x =  3
-	y =  2
-	>> z= 1/2*log10(x**2)-1/2*log10(y**2)
-	z =  0.17609
-\end{lstlisting}
-\subsubsection{$\log_e1-\dfrac{1}{2}\log_e4x^2$}
-\begin{lstlisting}
-	>> z = log(1)-1/2*log(4*x**2)
-	z = -1.7918
+>> t = [0:0.0001:1];
+>> ct = cos(2*pi*200*t);
+>> mt = cos(2*pi*10*t);
+>> plot(t(1:3000),mt(1:3000))
+>> print -depsc 2a.eps
+>> plot(t(1:3000),ct(1:3000))
+>> print -depsc 2b.eps
+>> xc = mt.*ct;
+>> plot(t(1:3000),xc(1:3000))
 \end{lstlisting}
 
-\subsubsection{$\dfrac{1}{2}\log_{10}x^2y^4-\dfrac{1}{2}\log_{10}x^4y^2$}
-\begin{lstlisting}
-	>> z = 1/2*log10(x**2*y**4)-1/2*log10(x**4*y**2)
-	z = -0.17609
-\end{lstlisting}
-\subsubsection{$\dfrac{1}{8}\log_e(x+1)^{16}$}
-\begin{lstlisting}
-	>> z = 1/8*log((x+1)**16)
-	z =  2.7726
-\end{lstlisting}
-\subsection{Plot $y=x^{10}, 0.1\leqq x\leqq 10$ with the following scales using MATLAB:}          
+\subsubsection{Plot mt(1:3000)}
+\includegraphics[width=0.8\textwidth]{2a.eps}
+\subsubsection{Plot ct(1:3000)}
+\includegraphics[width=0.8\textwidth]{2b.eps}
+\subsubsection{Plot xc = mt * ct for xc(1:3000)}
+\includegraphics[width=0.8\textwidth]{2c.eps}
 
-\subsubsection{x: linear, y:linear} 
-\includegraphics[width=0.8\textwidth]{1.eps}
-\subsubsection{x:linear, y:log} 
-\includegraphics[width=0.8\textwidth]{2.eps}
-\subsubsection{x:log, y:linear} 
-\includegraphics[width=0.8\textwidth]{3.eps}
-\subsubsection{x:log, y:log} 
-\includegraphics[width=0.8\textwidth]{4.eps}
+\subsubsection{Plot the spectrum of signal xc using the following commands:\\spec=abs(fft(xc));\\N=length(spec)/2;\\plot(spec(1:700)/N)}
+
+\includegraphics[width=0.8\textwidth]{2d.eps}
+
+\subsubsection{Plot xi=xc*ct for xi(1:3000).}
+\begin{lstlisting}
+>> xi = xc .* ct;
+>> plot(t(1:3000), xi(1:3000))
+\end{lstlisting}
+
+\includegraphics[width=0.8\textwidth]{2e.eps}
+ 
+\subsubsection{Plot the spectrum of signal xi using the following commands:\\spec2=abs(fft(xi));\\N=length(spec2)/2;\\plot(spec2(1:700)/N)}          
+\includegraphics[width=0.8\textwidth]{2f.eps}
+
+\subsubsection{What must be the cutoff frequency of LPF to recover mt from xi?} 
+10보다 커야 한다.
 \end{document}

@@ -1,15 +1,12 @@
 \relax 
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.}Compute the following functions using MATLAB:}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {a)}$\qopname  \relax o{log}_{10}{10000}=4$}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {b)}$\qopname  \relax o{log}_e{e^{20}}=20$}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {c)}$\qopname  \relax o{log}_{5}{125}=3$}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.}Compute the following functions when x = 3 and y = 2: (Write your MATLAB code, too)}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {a)}$\genfrac  {}{}{}0{1}{2}\qopname  \relax o{log}_{10}x^2-\genfrac  {}{}{}0{1}{2}\qopname  \relax o{log}_{10}y^2$}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {b)}$\qopname  \relax o{log}_e1-\genfrac  {}{}{}0{1}{2}\qopname  \relax o{log}_e4x^2$}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {c)}$\genfrac  {}{}{}0{1}{2}\qopname  \relax o{log}_{10}x^2y^4-\genfrac  {}{}{}0{1}{2}\qopname  \relax o{log}_{10}x^4y^2$}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {d)}$\genfrac  {}{}{}0{1}{8}\qopname  \relax o{log}_e(x+1)^{16}$}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.}Plot $y=x^{10}, 0.1\leqq x\leqq 10$ with the following scales using MATLAB:}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {a)}x: linear, y:linear}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {b)}x:linear, y:log}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {c)}x:log, y:linear}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {d)}x:log, y:log}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.}Plot the following cosine functions using MATLAB and write down their frequencies. You must define the boundaries and the intervals of variable t properly to obtain at least one cycle of the function. [Hint: use t such that $wt > 2\pi \times n$, where n is the number of cycles in the plot.]}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {a)}$\qopname  \relax o{cos}(5t)$}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {b)}$\qopname  \relax o{cos}(2\pi 100t)$}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.}If the sound signal is defined as $m(t)=\qopname  \relax o{cos}(2\pi (10)t)$ and the carrier signals is $\qopname  \relax o{cos}(2\pi (300)t)$, answer the following questions: (Hint: use t=[0:0.0001:1])}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {a)}Plot mt(1:3000)}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {b)}Plot ct(1:3000)}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {c)}Plot xc = mt * ct for xc(1:3000)}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {d)}Plot the spectrum of signal xc using the following commands:\\spec=abs(fft(xc));\\N=length(spec)/2;\\plot(spec(1:700)/N)}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {e)}Plot xi=xc*ct for xi(1:3000).}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {f)}Plot the spectrum of signal xi using the following commands:\\spec2=abs(fft(xi));\\N=length(spec2)/2;\\plot(spec2(1:700)/N)}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {g)}What must be the cutoff frequency of LPF to recover mt from xi?}{}}
