@@ -47,57 +47,73 @@
 \renewcommand{\thesubsubsection}{\alph{subsubsection})}
 \renewcommand{\thesubsection}{\arabic{subsection}.}
 \newpage
-\section*{Chapter 3. Lab Assignment}
-\subsection{Plot the following cosine functions using MATLAB and write down their frequencies.  You must define the boundaries and the intervals of variable t properly to obtain at least one cycle of the function.  [Hint: use t such that $wt > 2\pi\times n$, where n is the number of cycles in the plot.]} 
 
-\subsubsection{$\cos(5t)$}
-$2\pi f = 5\\
-\therefore f = \dfrac{5}{2\pi}$
+\section*{Chapter 4. Lab Assignment}
 
-\includegraphics[width=0.8\textwidth]{a.eps}
-
-\subsubsection{$\cos(2\pi 100t)$}
-$2\pi f = 2\pi 100\\
-\therefore f = 100$
-
-\includegraphics[width=0.8\textwidth]{b.eps}
-
-\subsection{If the sound signal is defined as $m(t)=\cos(2\pi(10)t)$ and the carrier signals is $\cos(2\pi (300)t)$, answer the following questions: (Hint: use t=[0:0.0001:1])} 
-
+\subsection{Let c1=4+5j and c2=1-6j.  Answer the following questions using MATLAB.} 
+\subsubsection{a = c1 - c2} 
+\subsubsection{b = c1*c2}
+\subsubsection{c = c1/c2} 
+\subsubsection{The magnitude of c1} 
+\subsubsection{The phase of c2} 
 \begin{lstlisting}
->> t = [0:0.0001:1];
->> ct = cos(2*pi*200*t);
->> mt = cos(2*pi*10*t);
->> plot(t(1:3000),mt(1:3000))
->> print -depsc 2a.eps
->> plot(t(1:3000),ct(1:3000))
->> print -depsc 2b.eps
->> xc = mt.*ct;
->> plot(t(1:3000),xc(1:3000))
+>> c1 = 4 + 5i
+c1 =  4 + 5i
+>> c2 = 1-6j
+c2 =  1 - 6i
+>> a = c1 - c2
+a =   3 + 11i
+>> b = c1 * c2
+b =  34 - 19i
+>> c = c1 / c2
+c = -0.70270 + 0.78378i
+>> abs(c1)
+ans =  6.4031
+>> angle(c2)
+ans = -1.4056
 \end{lstlisting}
 
-\subsubsection{Plot mt(1:3000)}
-\includegraphics[width=0.8\textwidth]{2a.eps}
-\subsubsection{Plot ct(1:3000)}
-\includegraphics[width=0.8\textwidth]{2b.eps}
-\subsubsection{Plot xc = mt * ct for xc(1:3000)}
-\includegraphics[width=0.8\textwidth]{2c.eps}
-
-\subsubsection{Plot the spectrum of signal xc using the following commands:\\spec=abs(fft(xc));\\N=length(spec)/2;\\plot(spec(1:700)/N)}
-
-\includegraphics[width=0.8\textwidth]{2d.eps}
-
-\subsubsection{Plot xi=xc*ct for xi(1:3000).}
+\subsection{Let $z1=3(\cos\dfrac{\pi}{3}+j\sin\dfrac{\pi}{3})\quad z2 = 5(\cos\dfrac{\pi}{4}+j\sin\dfrac{\pi}{4})$, answer the following questions:} 
+\subsubsection{z1*z2.} 
+\subsubsection{z2/z1}
+\subsubsection{$(z1)^3+2*(z1)^2+5*z1+1$}
 \begin{lstlisting}
->> xi = xc .* ct;
->> plot(t(1:3000), xi(1:3000))
+	>> z1 = 3*(cos(pi/3) + j*sin(pi/3))
+	z1 =  1.5000 + 2.5981i
+	>> z2 = 5*(cos(pi/4) + j*sin(pi/4))
+	z2 =  3.5355 + 3.5355i
+	>> z1*z2
+	ans =  -3.8823 + 14.4889i
+	>> z2/z1
+	ans =  1.60988 - 0.43137i
+	>> z1^3+2*z1^2+5*z1+1
+	ans = -27.500 + 28.579i
+\end{lstlisting}
+\begin{lstlisting}
+>> z1 = 3*e^(i*pi/4)
+z1 =  2.1213 + 2.1213i
+>> z1 = 3*e^(i*pi/3)
+z1 =  1.5000 + 2.5981i
+>> z2 = 5*e^(I*pi/4)
+z2 =  3.5355 + 3.5355i
+>> z1*z2
+ans =  -3.8823 + 14.4889i
+>> z2/z1
+ans =  1.60988 - 0.43137i
+>> z1^3+2*z1^2+5*z1+1
+ans = -27.500 + 28.579i
 \end{lstlisting}
 
-\includegraphics[width=0.8\textwidth]{2e.eps}
- 
-\subsubsection{Plot the spectrum of signal xi using the following commands:\\spec2=abs(fft(xi));\\N=length(spec2)/2;\\plot(spec2(1:700)/N)}          
-\includegraphics[width=0.8\textwidth]{2f.eps}
+\subsection{Let w = 10*pi, t = [0:0.01:5].  Also let p1 = 3exp(i*(wt+pi/3)), p2 = 5*exp(i*wt+pi/4)).  Answer the following questions.} 
+\subsubsection{Plot p1 using x=real(p1), y=imag(p1), z=t, and plot3(x,y,z).} 
+\includegraphics[width=\textwidth]{3a.eps}
+\subsubsection{Find the frequency of p1 by rotating the figure drawn in (a) and see the graph on either x axis or y axis.}
+\includegraphics[width=0.8\textwidth]{3b.eps}
 
-\subsubsection{What must be the cutoff frequency of LPF to recover mt from xi?} 
-10보다 커야 한다.
+세로축(시간)의 1당 약 5번의 주기가 반복된다.
+\subsubsection{Plot p2 using the same way as (a).  Overlay p2 on p1 using hold on command and use red ink using plot3(x, y, z, ‘r’).}
+\includegraphics[width=0.8\textwidth]{3c.eps}
+\subsubsection{Plot p3=p1+p2.  Overlay p1, p2, p3 on the same page using hold on command and use amber ink using plot3(x, y, z, ‘y’)..} 
+\includegraphics[width=\textwidth]{3d.eps}
+
 \end{document}
