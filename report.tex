@@ -49,44 +49,35 @@
 \renewcommand{\thesubsubsection}{\alph{subsubsection})}
 \renewcommand{\thesubsection}{\arabic{subsection}.}
 \newpage
-\section*{Chapter 3 Homework}
+\section*{Chapter 4 Homework}
 
-\subsection{Simplify the following equations.}
+\subsection{Find the polar forms of the following complex numbers.}
 
-\subsubsection{$\cos(100\pi t)\cos(500\pi t) = \dfrac{\cos(600\pi t)+\cos(400\pi t)}{2}$}
-$e^{i\theta} = \cos\theta + i\sin\theta\\
-e^{i\alpha} \times e^{i\beta} = (\cos\alpha + i\sin\alpha)(\cos\beta+i\sin\beta)\\
-e^{i(\alpha + \beta)} = \cos\alpha\cos\beta-\sin\alpha\sin\beta + i(\sin\alpha\cos\beta+\cos\alpha\sin\beta)=\cos(\alpha+\beta) + i\sin(\alpha+\beta)\\
-\therefore \cos(\alpha+\beta) = \cos\alpha\cos\beta -\sin\alpha\sin\beta\\
-\sin(\alpha+\beta) = \sin\alpha\cos\beta+\cos\alpha\sin\beta\\
-\cos(\alpha-\beta) = \cos\alpha\cos\beta +\sin\alpha\sin\beta\\
-\sin(\alpha-\beta) = \sin\alpha\cos\beta-\cos\alpha\sin\beta\\
-\therefore \cos(\alpha+\beta) + \cos(\alpha-\beta)= 2\cos\alpha\cos\beta\\
-\cos\alpha\cos\beta = \dfrac{\cos(\alpha+\beta)+\cos(\alpha-\beta)}{2}\\
-\sin\alpha\cos\beta = \dfrac{\sin(\alpha+\beta)+\sin(\alpha-\beta)}{2}$
-\subsubsection{$4sin(200\pi t)cos(300\pi t)=-2\sin(500\pi t
-	)\sin(100\pi t)$} 
+\subsubsection{$\cos(\dfrac{\pi}{4})+jsin(\dfrac{\pi}{4})$}
+$e^{j\frac{\pi}{4}}$
+\subsubsection{$\dfrac{1}{\sqrt{2}}+j\dfrac{1}{\sqrt{2}}$} 
+$e^{j\frac{\pi}{4}}$
+\subsection{Change the following polar forms to complex numbers.} 
+\subsubsection{$5\angle\pi$}
+$5(\cos\pi + j\sin\pi)=5(-1)=-5$
+\subsubsection{$2\angle\dfrac{\pi}{4}$}
+$2(\dfrac{1}{\sqrt{2}}+j\dfrac{1}{\sqrt{2}})=\sqrt{2}+j\sqrt{2}$
+\subsection{Simplify the following complex numbers.} 
+\subsubsection{$\dfrac{2+j5}{3-j}$}
+$\dfrac{1}{10} + \dfrac{17 i}{10}$
+\subsubsection{$j(5+2j)(3-j)$} 
+$-1+17i$
+\subsection{Find the phasor whose magnitude is 5 [V], frequency is 60Hz	and initial phase is $\dfrac{\pi}{4}$.} 
+$5e^{j2\pi 60 (t+\frac{\pi}{4})}$
+\subsection{Find the distance between two complex number z1=x1+jy1 and z2=x2+jy2.}
+$\sqrt{(x1-x2)^2+(y1-y2)^2}$
+\subsection{Find the coordinates of the following complex numbers and plot them.}
+\subsubsection{$-\sqrt{-1}$}
+\includegraphics[width=0.8\textwidth]{6a.eps}
+\subsubsection{$62\angle 60 + 12\angle 30$}
+\begin{lstlisting}
+plot(62*e**(i*60)+12*e**(i*30))
+\end{lstlisting}
 
-\subsection{Find the frequency of the following signals.} 
-\subsubsection{$\sin(t)$}
-$2\pi f = 1\\ 
-\therefore f = \dfrac{1}{2\pi}$
-\subsubsection{$\cos(600\pi t)$}
-$2\pi f = 600\pi\\
-\therefore f =  300$
-
-\subsection{Evaluate the following functions.} 
-\subsubsection{$sin(\pi /4)$}
-$\dfrac{\sqrt{2}}{2} $
-\subsubsection{$tan(\pi )$} 
-0
-\subsection{Let the information signal $m(t)=4\sin (200\pi t)$ \\
-	and the carrier signal $c(t)=\cos(2\times 10^6\pi t)$.\\
-Simplify the transmission signal $x(t)=m(t)c(t)$ and	find its frequencies. \\
- Plot the magnitude of each frequency in the	frequency domain.} 
-$x(t) = 4\sin(200\pi t)\cos(2\times 10^6\pi t)=2(\sin(2\times 10^6\pi + 200\pi )t)+\sin(2\times 10^6\pi - 200\pi) t))\\
-\therefore f = 10^6 \pm 100$
-
-\includegraphics[width=0.8\textwidth]{h.eps}
-
+\includegraphics[width=0.8\textwidth]{6b.eps}
 \end{document}
