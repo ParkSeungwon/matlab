@@ -98,7 +98,18 @@ $f(x) = C_nx^n+C_{n-1}x^{n-1}+C_{n-2}x^{n-2}+ \cdots +C_2x^2+C_1x + C_0$로 나�
 $C_n = \dfrac{f^n(0)}{n!}$\\
 그러므로, $f(x)=\displaystyle\sum_{k=0}^n \dfrac{f^k(0)}{k!}x^k \\
 = f(0) + f'(0)x+ \dfrac{f''(0)}{2}x^2 + \dfrac{f'''(0)}{6}x^3 \cdots$\\
-이 때에 x의 크기가 1보다 작으면, 자승에 의해서 $x^n$이 작아지므로, 테일러 급수를 통해 어떠한 식의 근사치를 구해 갈 수 있다.
+이 때에 x의 크기가 1보다 작으면, 자승에 의해서 $x^n$이 작아지므로, 테일러 급수를 통해 어떠한 식의 근사치를 구해 갈 수 있다.\\
+$\displaystyle\int_a^xf'(t)dt=f(x)-f(a)\\
+f(x) = \int_a^xf'(t)dt+f(a)\\
+(uv)'=uv'+u'v\\
+\int(uv)'=\int uv'+\int u'v\\
+\int uv' = uv - \int u'v\\
+\therefore\int_a^xf'(t)\cdot 1dt= f'(x)x-\int_a^bf''(x)xdx\\
+f(x)=f(a)+f'(x)x-\int_a^bf''(x)xdx\\
+\int_a^bf''(x)xdx=f''(x)\dfrac{1}{2}x^2-\int_a^bf'''(x)\dfrac{1}{2}x^2dx\\
+f(x)=f(a)+f'(x)x\int_a^bf''(x)xdx\\
+$
+
 \subsubsection{$e^{2x}$}
 $1 + 2x + \cdots + \dfrac{2^n}{n!}x^n = \displaystyle\sum_{k=0}^n\dfrac{2^k}{k!}x^k$
 \subsubsection{$\sin{2x}$}
