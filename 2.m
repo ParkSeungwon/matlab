@@ -1,4 +1,11 @@
-x = linspace(0,1,1001);
-y = x.**2.*exp(x);
-z = y(1:1000).*diff(x);
-plot(x(1:1000),z)
+A = [1 2 3;4 5 6;1 1 3]
+A(2,3)
+A(3,:)
+A(:,2)
+rank(A)
+A'
+inv(A)
+[vec, val] = eig(A)
+trace(A)
+det(A)
+inv(A) * det(A)

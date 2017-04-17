@@ -49,73 +49,237 @@
 \renewcommand{\thesubsubsection}{\alph{subsubsection})}
 \renewcommand{\thesubsection}{\arabic{subsection}.}
 \newpage
-\section*{Chapter 5 Homework}
-\subsection{Find the derivatives of the following functions at x1.} 
-\subsubsection{$y= 3x^2+2x-1, x1=2$}  
-$y' = 6x + 2\\ y'(2) = 14$
-\subsubsection{$y= 3x+7, x1=-1$}
-3
-\subsection{Find the derivatives of the following functions and their integration parts of the fundamental theorem of calculus.} 
-\subsubsection{$\cos x\sin x$} 
-$-\sin^2 x+\cos^2 x$
-\subsubsection{$\log(10x)$}
-$(1 + \log x)' = \dfrac{1}{x}$
-\subsubsection{$e^{-3x}$} 
-$-3e^{-3x}$
 
-\subsection{Find the values of the following integrations.} 
-\subsubsection{$\displaystyle\int_{-1}^1 x^2+3x+2 dx$}
-$\left[ \dfrac{1}{3}x^3+6x+2x \right]_{-1}^1 = \dfrac{2}{3}$
-\subsubsection{$\displaystyle\int_{-1}^1 e^{2x}+e^x dx$}
-$\left[ \dfrac{1}{2}e^{2x}+e^x \right]_{-1}^1=- \dfrac{1}{e} - \dfrac{1}{2 e^{2}} + e + \dfrac{e^{2}}{2}$
-\subsubsection{$\displaystyle\int_1^2 \dfrac{1}{2} dx$}
-$\left[ \dfrac{1}{2} x \right]_1^2=\dfrac{1}{2}$
-\subsection{Compute the following indefinite integrations.} 
-\subsubsection{$\displaystyle\int  xe^x dx$}
-$(xe^x)'=e^x + xe^x$에서 양변을 적분하면
-$xe^x = e^x + \displaystyle\int xe^x dx\\
-\therefore \displaystyle\int xe^x dx = xe^x - e^x$
-\subsubsection{$\displaystyle\int x\sin x dx$}
-$(x\cos x)' = \cos x - x\sin x$에서 양변을 적분하면
-$x\cos x = \sin x - \displaystyle\int x\sin x dx\\
-\therefore \displaystyle\int x\sin x dx = \sin x - x\cos x$
-\subsubsection{$\displaystyle\int \dfrac{\log x}{x} dx$}
-$(\log^2 x)' = \dfrac{2 \log x}{x}\\ 
-\therefore \displaystyle\int \dfrac{\log x}{x}= \dfrac{1}{2} \log^2 x $
-\subsubsection{$\displaystyle\int  e^{-x}\cos x dx$}
-$(e^{-x}\sin x)' = -e^{-x}\sin x + e^{-x}\cos x\\
-(e^{-x}\cos x)'= -e^{-x}\cos x -e^{-x}\sin x\\$
-위 식에서 아래 식을 빼면 \\
-$(e^{-x}\sin x)'- (e^{-x}\cos x)' = 2e^{-x}\cos x\\$
-양변을 적분하면 
-$\therefore \displaystyle\int e^{-x}\cos x = \dfrac{1}{2}(e^{-x}\sin x -e^{-x}\cos x)$
-\subsection{Find the Taylor series of the following functions.}  
-무한히 미분 가능한 임의의 함수를 무한한 차수의 다항식 
-$C_nx^n+C_{n-1}x^{n-1}+C_{n-2}x^{n-2}+ ... C_2x^2+C_1x + C_0$으로 나타낼 수 있다.($n \rightarrow \infty$)
-연립방정식을 생각해보면 두 개의 점이 있으면 그 것을 나타내는 일차식을 결정하는 계수를 구할 수 있다. 이 때에 차수는 일차식이면 된다. 점의 갯수가 많아질 수록 다항식을 차수를 늘리면 그에 상응하는 계수를 구할 수 있다. 이를 확장하면 무한의 차수의 방정식으로 유한한 갯수의 점을 가지는 함수를 구할 수 있다. 테일러 식은 근사식이므로 유한한 갯수의 점을 가지는 함수를 가정해도 된다. 그러므로 임의의 식을 \\
-$f(x) = C_nx^n+C_{n-1}x^{n-1}+C_{n-2}x^{n-2}+ \cdots +C_2x^2+C_1x + C_0$로 나타낼 수 있다.\\
-다음으로 계수 $C_n$를 함수 f를 n번 미분하여 0을 대입한 것으로 구할 수 있다. 자신보다 큰 항의 계수는 0의 대입으로 인해 사라지고, 자신보다 차수가 작은 항은 미분으로 사라진다.\\
-$C_n = \dfrac{f^n(0)}{n!}$\\
-그러므로, $f(x)=\displaystyle\sum_{k=0}^n \dfrac{f^k(0)}{k!}x^k \\
-= f(0) + f'(0)x+ \dfrac{f''(0)}{2}x^2 + \dfrac{f'''(0)}{6}x^3 \cdots$\\
-이 때에 x의 크기가 1보다 작으면, 자승에 의해서 $x^n$이 작아지므로, 테일러 급수를 통해 어떠한 식의 근사치를 구해 갈 수 있다.\\
-$\displaystyle\int_a^xf'(t)dt=f(x)-f(a)\\
-f(x) = \int_a^xf'(t)dt+f(a)\\
-(uv)'=uv'+u'v\\
-\int(uv)'=\int uv'+\int u'v\\
-\int uv' = uv - \int u'v\\
-\therefore\int_a^xf'(t)\cdot 1dt= f'(x)x-\int_a^bf''(x)xdx\\
-f(x)=f(a)+f'(x)x-\int_a^bf''(x)xdx\\
-\int_a^bf''(x)xdx=f''(x)\dfrac{1}{2}x^2-\int_a^bf'''(x)\dfrac{1}{2}x^2dx\\
-f(x)=f(a)+f'(x)x\int_a^bf''(x)xdx\\
+\section*{Chapter 6 Homework}
+Show your solutions and do not use MATLAB for your homework except Problem 5.
+
+\subsection{Let A=[1 2 3;4 5 6], B=[1 -1;0 1], C=[-1 0;1 1;0 1], D=[-3 -2 -1;1 2 3].  Compute the followings:} 
+
+\subsubsection{$A – C^T$} 
+$\begin{bmatrix}
+	2&1&3\\
+	4&4&5
+\end{bmatrix}
 $
+\subsubsection{$C^T +3D$} 
+$
+\begin{bmatrix}
+-10 &-5& -3\\3& 7& 10
+\end{bmatrix}
+$
+\subsubsection{BA}
+$
+\begin{bmatrix}
+-3&-3&-3\\4&5&6
+\end{bmatrix}
+$
+\subsubsection{CB}
+$
+\begin{bmatrix}
+-1&1\\1&0\\0&1
+\end{bmatrix}
+$
+\subsubsection{$B^3$}
+$
+\begin{bmatrix}
+1 &-3\\0&1
+\end{bmatrix}
+$
+\subsection{For each of the given matrices, find the inverse or determine that the matrix is singular.}
 
-\subsubsection{$e^{2x}$}
-$1 + 2x + \cdots + \dfrac{2^n}{n!}x^n = \displaystyle\sum_{k=0}^n\dfrac{2^k}{k!}x^k$
-\subsubsection{$\sin{2x}$}
-짝수번 미분하면 0을 대입시 0이 되므로 홀수번 미분시만 고려하면 된다.\\
-$\displaystyle\sum_{k=0}^n(-1)^k\dfrac{2^{2k+1}}{(2k+1)!}x^{2k+1}$
-\subsubsection{$\cos{2x}$}
-홀수번 미분하면 0을 대입시 0이 되고, 짝수번 미분시 0을 대입하면 1이 되므로 짝수번 미분만 고려하면 된다.\\
-$\displaystyle\sum_{k=0}^{n}(-1)^{k}\dfrac{2^{2k}}{(2k)!}x^{2k}$
+\subsubsection{[1 -1; -1 1]} 
+ad - bc = 0이므로 singular
+\subsubsection{[1 2;3 4]}
+$
+\begin{bmatrix}
+	-2 &1\\ \dfrac{3}{2} & \dfrac{1}{2}
+\end{bmatrix}
+$
+\subsubsection{[1 2 3;4 5 6; 7 8 9]}
+\begin{gather*}
+\begin{bmatrix}
+	1&2&3\\4&5&6\\7&8&9
+\end{bmatrix}\\
+A^{-1} = \dfrac{adj(A)}{det(A)}\\
+det(A) = \displaystyle\sum_{i=1}^{n}a_{ij}C_{ij}=a_{11}C_{11}+a_{21}C_{21}+a_{31}C_{31}\\
+C_{ij} = (-1)^{i+j}M_{ij}\\
+det(A)=1\times (45-48) - 4\times (18-24) + 7\times (12-15) = -3 + 24 -21 = 0\\
+\therefore singular
+\end{gather*}
+\subsubsection{[1 2 3; 1 3 2;0 1 1]}
+\begin{gather*}
+\begin{bmatrix}
+1&2&3\\1&3&2\\0&1&1
+\end{bmatrix}\\
+det(A) = 1\times 1 - 1\times -1 + 0 = 2\\
+adj(A) = 
+\begin{bmatrix}
+C_{11}&C_{12}&C_{13}\\C_{21}&C_{22}&C_{23}\\C_{31}&C_{32}&C_{33}
+\end{bmatrix}^T=
+\begin{bmatrix}
+1&-1&1\\1&1&-1\\-5&1&1
+\end{bmatrix}^T=
+\begin{bmatrix}
+1&1&-5\\-1&1&1\\1&-1&1
+\end{bmatrix}
+\\
+A^{-1}=\dfrac{adj(A)}{2}=
+\begin{bmatrix}
+0.5& 0.5&-2.5\\-0.5&0.5&0.5\\0.5&-0.5&0.5
+\end{bmatrix}\\
+\end{gather*}
+\subsection{Write each of the following linear equation as a matrix equation, and solve by inverting the coefficient matrix} 
+\begin{gather*}
+x + y + z = 2\\
+x +2y + z = 6\\
+y + z = 1\\
+\begin{bmatrix}
+1&1&1\\1&2&1\\0&1&1
+\end{bmatrix}
+\begin{bmatrix}
+x\\y\\z
+\end{bmatrix}
+=
+\begin{bmatrix}
+2\\6\\1
+\end{bmatrix}\\
+det(A) = 1\\
+adj(A) = 
+\begin{bmatrix}
+1&-1&1\\0&1&-1\\-1&0&1
+\end{bmatrix}^T=
+\begin{bmatrix}
+1&0&-1\\-1&1&0\\1&-1&1
+\end{bmatrix}\\
+\therefore A^{-1} = 
+\begin{bmatrix}
+1&0&-1\\-1&1&0\\1&-1&1
+\end{bmatrix}\\
+\begin{bmatrix}
+x\\y\\z
+\end{bmatrix}
+=
+\begin{bmatrix}
+1&0&-1\\-1&1&0\\1&-1&1
+\end{bmatrix}
+\begin{bmatrix}
+2\\6\\1
+\end{bmatrix}
+=
+\begin{bmatrix}
+1\\4\\-3
+\end{bmatrix}
+\end{gather*}
+
+
+
+\subsection{Find a matrix A which rotates a point by 60 degree clockwise .  Draw Ax when x is on a unit square as follows:\\(1.1)}
+
+\begin{gather*}
+\begin{bmatrix}
+	\cos(-60)& -\sin(-60)\\ \sin(-60)& cos(-60)
+\end{bmatrix}
+=
+\begin{bmatrix}
+0.5&\dfrac{\sqrt{3}}{2}\\-\dfrac{\sqrt{3}}{2}&0.5
+\end{bmatrix}\\
+\begin{bmatrix}
+0.5&\dfrac{\sqrt{3}}{2}\\-\dfrac{\sqrt{3}}{2}&0.5
+\end{bmatrix}
+\begin{bmatrix}
+0&1&0&1\\0&0&1&1
+\end{bmatrix}
+=
+\begin{bmatrix}
+0&0.5&\dfrac{\sqrt{3}}{2}&\dfrac{1+\sqrt{3}}{2}\\
+0&-\dfrac{\sqrt{3}}{2}&0.5&\dfrac{1-\sqrt{3}}{2}
+\end{bmatrix}
+\end{gather*}
+\begin{center}
+	\includegraphics[width=0.8\textwidth]{2.png}
+\end{center}
+
+\subsection{Find the Eigen values and Eigen vectors of A = [9 14; 1 4] and draw the trace of Ax if x is a vector on the unit circle using MATLAB.  Then calculate $A^5$ using MATLAB. } 
+
+\begin{gather*}
+Av = \lambda v\\
+det(A-\lambda I) = 0\\
+\end{gather*}
+
+\begin{equation*}
+	\begin{Vmatrix}
+	9-\lambda&14\\1&4-\lambda
+	\end{Vmatrix}=0\\
+\end{equation*}
+	
+\begin{gather*}
+36 -13\lambda + \lambda^2 -14 = 0\\
+(\lambda-11)(\lambda-2)=0\\
+\rhd \lambda=11\\
+\begin{bmatrix}
+-2&14\\1&-7
+\end{bmatrix}
+\begin{bmatrix}
+x\\y
+\end{bmatrix}=0\\
+v = k
+\begin{bmatrix}
+1 \\-7
+\end{bmatrix}\\
+\rhd \lambda=2\\
+v=k
+\begin{bmatrix}
+1\\2
+\end{bmatrix}\\
+\end{gather*}
+\begin{lstlisting}
+th = linspace(0, 2*pi, 100);
+x = cos(th);
+y = sin(th);
+A = [9 14; 1 4]
+B = A * [x;y];
+t = linspace(-0.5,0.5,100);
+plot(x,y, B(1,:), B(2,:), t, -7*t, t, 2*t)
+\end{lstlisting}
+
+\includegraphics[width=0.8\textwidth]{5.eps}
+\begin{gather*}
+\text{\Large Matrix decomposition}\\
+V = [v_1, v_2]=
+\begin{bmatrix}
+1&1\\-7&2
+\end{bmatrix}\\
+AV = 
+\begin{bmatrix}
+9&14\\1&4
+\end{bmatrix}
+\begin{bmatrix}
+1&1\\-7&2
+\end{bmatrix}=\lambda V = 
+[11v_1, 2v_2]=
+\begin{bmatrix}
+1&1\\-7&2
+\end{bmatrix}
+\begin{bmatrix}
+11&0\\0&2
+\end{bmatrix}
+=V\Lambda\\
+\therefore A^5=M\Lambda^5M^{-1}=
+\begin{bmatrix}
+1&1\\-7&2
+\end{bmatrix}
+\begin{bmatrix}
+11^5&0\\0&2^5
+\end{bmatrix}
+\dfrac{1}{9}
+\begin{bmatrix}
+2&-1\\7&1
+\end{bmatrix}=
+\begin{bmatrix}
+ 125269 &  250474\\
+ 17891   & 35814
+\end{bmatrix}
+\end{gather*}
+
+
 \end{document}

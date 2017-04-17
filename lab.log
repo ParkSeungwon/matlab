@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.7.8)  5 APR 2017 12:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.7.8)  17 APR 2017 11:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1234,181 +1234,100 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./logo.jpg>]
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 17.28pt on input line 51.
+(Font)              scaled to size 17.28pt on input line 50.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 17.28pt on input line 51.
+(Font)              scaled to size 17.28pt on input line 50.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 14.4pt on input line 52.
+(Font)              scaled to size 14.4pt on input line 51.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 54.
-LaTeX Font Info:    Try loading font information for OML+LinuxLibertineT-TLF on
- input line 56.
-LaTeX Font Info:    No file OMLLinuxLibertineT-TLF.fd. on input line 56.
-
-
-LaTeX Font Warning: Font shape `OML/LinuxLibertineT-TLF/m/n' undefined
-(Font)              using `OML/cmm/m/it' instead
-(Font)              for symbol `textgreater' on input line 56.
-
+(Font)              scaled to size 12.0pt on input line 53.
 LaTeX Font Info:    Try loading font information for TS1+LinuxLibertineT-TLF on
- input line 56.
+ input line 69.
+
 (/usr/share/texlive/texmf-dist/tex/latex/libertine/TS1LinuxLibertineT-TLF.fd
 File: TS1LinuxLibertineT-TLF.fd 2012/11/26 (autoinst) Font definitions for TS1/
 LinuxLibertineT-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 56.
-LaTeX Font Info:    Try loading font information for LUC+uhcmj on input line 61
-.
+(Font)              scaled to size 12.0pt on input line 69.
 
-(/usr/share/texlive/texmf-dist/tex/latex/kotex-utf/lucuhcmj.fd
-File: lucuhcmj.fd 2013/09/26 UHC Myeongjo font definitions
-)
-Missing character: There is no Å in font uwmj22!
-Package epstopdf Info: Source file: <1.eps>
-(epstopdf)                    date: 2017-04-05 11:35:45
-(epstopdf)                    size: 6593 bytes
-(epstopdf)             Output file: <1-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-04-05 11:36:24
-(epstopdf)                    size: 4445 bytes
-(epstopdf)             Command: <repstopdf --outfile=1-eps-converted-to.pdf 1.e
-ps>
-(epstopdf)             \includegraphics on input line 73.
-Package epstopdf Info: Output file is already uptodate.
-
-<1-eps-converted-to.pdf, id=23, 578.16pt x 434.62375pt>
-File: 1-eps-converted-to.pdf Graphic file (type pdf)
-
-<use 1-eps-converted-to.pdf>
-Package pdftex.def Info: 1-eps-converted-to.pdf used on input line 73.
-(pdftex.def)             Requested size: 432.48355pt x 325.1115pt.
- [2 <./1-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <2.eps>
-(epstopdf)                    date: 2017-04-05 11:51:41
-(epstopdf)                    size: 23786 bytes
-(epstopdf)             Output file: <2-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-04-05 11:52:22
-(epstopdf)                    size: 11660 bytes
-(epstopdf)             Command: <repstopdf --outfile=2-eps-converted-to.pdf 2.e
-ps>
-(epstopdf)             \includegraphics on input line 83.
-Package epstopdf Info: Output file is already uptodate.
-
-<2-eps-converted-to.pdf, id=39, 578.16pt x 434.62375pt>
-File: 2-eps-converted-to.pdf Graphic file (type pdf)
-
-<use 2-eps-converted-to.pdf>
-Package pdftex.def Info: 2-eps-converted-to.pdf used on input line 83.
-(pdftex.def)             Requested size: 432.48355pt x 325.1115pt.
- (./2.m)
-Package epstopdf Info: Source file: <2-2.eps>
-(epstopdf)                    date: 2017-04-05 12:53:08
-(epstopdf)                    size: 23993 bytes
-(epstopdf)             Output file: <2-2-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-04-05 12:54:57
-(epstopdf)                    size: 12158 bytes
-(epstopdf)             Command: <repstopdf --outfile=2-2-eps-converted-to.pdf 2
--2.eps>
-(epstopdf)             \includegraphics on input line 86.
-Package epstopdf Info: Output file is already uptodate.
-
-<2-2-eps-converted-to.pdf, id=40, 578.16pt x 434.62375pt>
-File: 2-2-eps-converted-to.pdf Graphic file (type pdf)
-
-<use 2-2-eps-converted-to.pdf>
-Package pdftex.def Info: 2-2-eps-converted-to.pdf used on input line 86.
-(pdftex.def)             Requested size: 432.48355pt x 325.1115pt.
- [3 <./2-eps-converted-to.pdf>] (./4.m)
+(./1.txt [2] [3]) [4] (./2.txt [5]) (./3.txt) [6] (./4.txt [7])
 Package epstopdf Info: Source file: <4.eps>
-(epstopdf)                    date: 2017-04-05 12:59:33
-(epstopdf)                    size: 9836 bytes
+(epstopdf)                    date: 2017-04-17 11:25:16
+(epstopdf)                    size: 6274 bytes
 (epstopdf)             Output file: <4-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-03-13 19:46:36
-(epstopdf)                    size: 5056 bytes
+(epstopdf)                    date: 2017-04-17 11:26:24
+(epstopdf)                    size: 4120 bytes
 (epstopdf)             Command: <repstopdf --outfile=4-eps-converted-to.pdf 4.e
 ps>
-(epstopdf)             \includegraphics on input line 89.
-runsystem(repstopdf --outfile=4-eps-converted-to.pdf 4.eps)...executed safely (
-allowed).
+(epstopdf)             \includegraphics on input line 145.
+Package epstopdf Info: Output file is already uptodate.
 
-Package epstopdf Info: Result file: <4-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-04-05 13:00:00
-(epstopdf)                    size: 5839 bytes.
-
-<4-eps-converted-to.pdf, id=49, 578.16pt x 434.62375pt>
+<4-eps-converted-to.pdf, id=51, 578.16pt x 434.62375pt>
 File: 4-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 4-eps-converted-to.pdf>
-Package pdftex.def Info: 4-eps-converted-to.pdf used on input line 89.
+Package pdftex.def Info: 4-eps-converted-to.pdf used on input line 145.
 (pdftex.def)             Requested size: 432.48355pt x 325.1115pt.
- [4 <./2-2-eps-converted-to.pdf>]
-
-LaTeX Font Warning: Font shape `LUC/uhcmj/b/n' undefined
-(Font)              using `LUC/uhcmj/m/n' instead on input line 90.
-
-<screenshot001.png, id=58, 298.86656pt x 151.3153pt>
-File: screenshot001.png Graphic file (type png)
- <use screenshot001.png>
-Package pdftex.def Info: screenshot001.png used on input line 92.
-(pdftex.def)             Requested size: 540.60239pt x 273.75266pt.
-
-[5 <./4-eps-converted-to.pdf> <./screenshot001.png (PNG copy)>]
-Package epstopdf Info: Source file: <3.eps>
-(epstopdf)                    date: 2017-04-05 11:48:38
-(epstopdf)                    size: 7334 bytes
-(epstopdf)             Output file: <3-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-04-05 11:49:23
-(epstopdf)                    size: 4940 bytes
-(epstopdf)             Command: <repstopdf --outfile=3-eps-converted-to.pdf 3.e
+Package epstopdf Info: Source file: <5.eps>
+(epstopdf)                    date: 2017-04-17 11:31:27
+(epstopdf)                    size: 122985 bytes
+(epstopdf)             Output file: <5-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-04-16 20:36:30
+(epstopdf)                    size: 7171 bytes
+(epstopdf)             Command: <repstopdf --outfile=5-eps-converted-to.pdf 5.e
 ps>
-(epstopdf)             \includegraphics on input line 102.
-Package epstopdf Info: Output file is already uptodate.
+(epstopdf)             \includegraphics on input line 163.
+runsystem(repstopdf --outfile=5-eps-converted-to.pdf 5.eps)...executed safely (
+allowed).
 
-<3-eps-converted-to.pdf, id=68, 578.16pt x 434.62375pt>
-File: 3-eps-converted-to.pdf Graphic file (type pdf)
+Package epstopdf Info: Result file: <5-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-04-17 11:32:16
+(epstopdf)                    size: 39034 bytes.
 
-<use 3-eps-converted-to.pdf>
-Package pdftex.def Info: 3-eps-converted-to.pdf used on input line 102.
+<5-eps-converted-to.pdf, id=52, 578.16pt x 434.62375pt>
+File: 5-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 5-eps-converted-to.pdf>
+Package pdftex.def Info: 5-eps-converted-to.pdf used on input line 163.
 (pdftex.def)             Requested size: 432.48355pt x 325.1115pt.
- [6 <./3-eps-converted-to.pdf>] (./lab.aux)
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
- ) 
+ [8 <./4-eps-converted-to.pdf>] [9 <./5-eps-converted-to.pdf>] (./lab.aux) ) 
 Here is how much of TeX's memory you used:
- 17987 strings out of 493029
- 330358 string characters out of 6136235
- 440212 words of memory out of 5000000
- 21089 multiletter control sequences out of 15000+600000
- 33149 words of font info for 90 fonts, out of 8000000 for 9000
+ 17948 strings out of 493029
+ 329443 string characters out of 6136235
+ 482213 words of memory out of 5000000
+ 21061 multiletter control sequences out of 15000+600000
+ 30186 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,13n,72p,470b,1861s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_naooyc.enc}{/us
-r/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_lu7m2n.enc}{/usr/shar
-e/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_c7kyj5.enc}</usr/share/texl
-ive/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/libertine/LinLibertineTB.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/nanumtype1/nanummjmb1.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/na
-numtype1/nanummjmb9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanum
-type1/nanummjmbc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtyp
-e1/nanummjmc1.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/
-nanummjmc2.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nan
-ummjmc6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanumm
-jmc7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc
-8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd1.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd3.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd5.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd7.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/uhc/umj/umj01.pfb>
-Output written on lab.pdf (6 pages, 825377 bytes).
+ 62i,14n,72p,470b,1835s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/u
+sr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_naooyc.enc}{/usr/sha
+re/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_lu7m2n.enc}{/usr/share/tex
+live/texmf-dist/fonts/enc/dvips/libertine/lbtn_c7kyj5.enc}</usr/share/texlive/t
+exmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/libertine/LinLibertineTB.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/sym
+bols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/na
+nummjmb1.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanum
+mjmb9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjm
+bc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc1.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc2.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc6.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc7.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc8.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd1.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd3.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd5.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd7.pfb>
+Output written on lab.pdf (9 pages, 855464 bytes).
 PDF statistics:
- 144 PDF objects out of 1000 (max. 8388607)
- 102 compressed objects within 2 object streams
+ 140 PDF objects out of 1000 (max. 8388607)
+ 101 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 48 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 28 words of extra memory for PDF output out of 10000 (max. 10000000)
 
