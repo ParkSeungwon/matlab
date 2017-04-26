@@ -1,7 +1,7 @@
-A = [3:0.1:3.9]
-B = linspace(10, 50, 10)
-0.5 * A
-A + B
-A - B
-A .* B
-A ./ B
+A = [3 -2 5]
+B = [-1 7 2]
+norm(A)
+B / norm(B)
+C = 3 * A - 2 * B
+dot(A, B)
+acos(dot(A,B) / (norm(A) * norm(B)))
