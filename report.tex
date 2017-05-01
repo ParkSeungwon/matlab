@@ -50,33 +50,43 @@
 \renewcommand{\thesubsection}{\arabic{subsection}.}
 \newpage
 
-\section*{Chapter 7 Homework}
-\subsection{Let v = (a, b, c) and w = (3a, 3b, 3c) be vectors.  Show that $\parallel w\parallel = 3 \parallel v\parallel$}
-	$3\sqrt{a^2+b^2+c^2} = \sqrt{9a^2+9b^2+9c^2}$
-\subsection{Let v = (−1, 5, −2) and w = (3, 1, 1).}  
+\section*{Chapter 8 Homework}
+\subsection{If the outlet is a pipe that discharges to atmospheric pressure pa and provides a resistance, R, to flow that is proportional to the pressure difference across its ends, then find the outlet flow rate qmo and the differential equation of h(t).  Hint: qmo is (1/R)* (the pressure difference across its ends) } 
 	
-\subsubsection{Find v - w }
-(-1-3, 5-1, -2-1) = (-4, 4, -3) 
-\subsubsection{Find v + w. }
-(2,6,-1)
-\subsubsection{Find $v / \parallel w \parallel$ }
-$\parallel w\parallel = \sqrt{9+1+1} = \sqrt{11}\\
-(1/\sqrt{11}, 5/\sqrt{11}, 2/\sqrt{11})
-$
-\subsubsection{Find $\dfrac{1}{2}\parallel v - w\parallel$ }
-$\dfrac{1}{2}\sqrt{16+16+9} = \dfrac{1}{2}\sqrt{41}$
-\subsubsection{Find $\dfrac{1}{2}\parallel v + w\parallel$ }
-$\dfrac{1}{2}\sqrt{4+36+1} = \dfrac{1}{2}\sqrt{41}$
-\subsubsection{Find the vector u such that u + v + w = 2 j + k. }
-$u+v+w=(0,2,1)\\
-u = (0,2,1)-(2,6,-1)\\
-u = (-2,-4,2)
-$
-\subsection{Let v = -3 i - 2 j - k and w = 6 i + 4 j + 2k. Calculate v-w.} 
-	$(-3,-2,-1)-(6,4,2)=(-9,-6,-3)$
-\subsection{Let v = (8, 4, 3) and w = (-2, 1, 4). Is v ⊥ w? Justify your answer.} 
-	$v\cdot w = -16 + 4 +12 = 0 = \parallel v \parallel \parallel w \parallel cos\theta \\
-	\therefore cos\theta = 0\\ \therefore \theta = \dfrac{\pi}{2}$
+\includegraphics[width=0.5\textwidth]{1.png}
+$\dfrac{dm}{dt}=\rho A \dfrac{dh}{dt}=q_{mi}-q_{mo}$
+\begin{gather*}
+\displaystyle
+q_{mo} = q_{mi} - \rho A \frac{dh}{dt}=\frac{1}{R}P = \frac{\rho h(t)}{R}\\
+q_{mi}-\rho A \frac{dh(t)}{dt} = \frac{\rho h(t)}{R}\\
+\frac{1}{A}(\frac{q_{mi}}{\rho} - \frac{h(t)}{R}) =  \frac{dh(t)}{dt} =
+\frac{h(t+\Delta t)-h(t)}{\Delta t} \\
+h(t + \Delta t) = \frac{\Delta t}{A}(\frac{q_{mi}}{\rho} - \frac{h(t)}{R}) + h(t)\\
+h(k+1) = \frac{\Delta t}{A}(\frac{q_{mi}}{\rho} - \frac{h(k)}{R}) + h(k)\\
+\end{gather*}
 
+\subsection{Find a DE for the following circuits.}
+\subsubsection{}
+\begin{gather*}
+\displaystyle
+Q = CV\\
+V= \frac{Q}{C}\\
+V(t) = \frac{1}{C}\int_{t_0}^{t} I(t) + V(t_0)\\
+\because Q = \int_{t_0}^t I(t)\\
+V = L\frac{dI(t)}{dt}\\
+C\frac{dV(t)}{dt} = I(t) 
+\end{gather*}
+
+	\includegraphics[width=\textwidth]{2.png}
+	
+	
+\subsubsection{}
+	\includegraphics[width=\textwidth]{3.png}	
+	
+	
+	
+	
+	
+	
 
 \end{document}

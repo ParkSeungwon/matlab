@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.7.8)  19 APR 2017 10:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.7.8)  1 MAY 2017 10:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1237,53 +1237,60 @@ LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 17.28pt on input line 50.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
 (Font)              scaled to size 17.28pt on input line 50.
-LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 14.4pt on input line 52.
-LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 54.
- (./1.m
-LaTeX Font Info:    Try loading font information for TS1+LinuxLibertineT-TLF on
- input line 5.
 
-(/usr/share/texlive/texmf-dist/tex/latex/libertine/TS1LinuxLibertineT-TLF.fd
-File: TS1LinuxLibertineT-TLF.fd 2012/11/26 (autoinst) Font definitions for TS1/
-LinuxLibertineT-TLF.
+<1.png, id=23, 319.1925pt x 186.6975pt>
+File: 1.png Graphic file (type png)
+ <use 1.png>
+Package pdftex.def Info: 1.png used on input line 51.
+(pdftex.def)             Requested size: 270.3012pt x 158.10107pt.
+LaTeX Font Info:    Try loading font information for LUC+uhcmj on input line 57
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/kotex-utf/lucuhcmj.fd
+File: lucuhcmj.fd 2013/09/26 UHC Myeongjo font definitions
 )
-LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 5.
-)
-(./1.txt) [2] (./lab.aux) ) 
+! Extra }, or forgotten $.
+l.67 $y[n] = 0.7*x[n] + 0.3*x[n-1]}
+                                   $
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+[2 <./1.png>] (./lab.aux) ) 
 Here is how much of TeX's memory you used:
- 17913 strings out of 493029
- 329023 string characters out of 6136235
- 464213 words of memory out of 5000000
- 21034 multiletter control sequences out of 15000+600000
- 30186 words of font info for 81 fonts, out of 8000000 for 9000
+ 17211 strings out of 493029
+ 321119 string characters out of 6136235
+ 414212 words of memory out of 5000000
+ 20332 multiletter control sequences out of 15000+600000
+ 29856 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,13n,72p,470b,1821s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,13n,72p,470b,480s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/liber
-tine/lbtn_naooyc.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/l
-btn_lu7m2n.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_c7
-kyj5.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinLiberti
-neT.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinLibertin
-eTB.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb1.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb9.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbc.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc1.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc2.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc6.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/nanumtype1/nanummjmc7.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/nanumtype1/nanummjmc8.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/nanumtype1/nanummjmd1.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/nanumtype1/nanummjmd3.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/nanumtype1/nanummjmd5.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/nanumtype1/nanummjmd7.pfb>
-Output written on lab.pdf (2 pages, 751720 bytes).
+tine/lbtn_lu7m2n.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/l
+btn_c7kyj5.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinL
+ibertineT.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinLi
+bertineTB.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
+i12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb1.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb9.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbc.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc1.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc2.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/nanumtype1/nanummjmc6.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/nanumtype1/nanummjmc7.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/nanumtype1/nanummjmc8.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/nanumtype1/nanummjmd1.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/nanumtype1/nanummjmd3.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/nanumtype1/nanummjmd5.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/nanumtype1/nanummjmd7.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/uhc/umj/umj01.pfb>
+Output written on lab.pdf (2 pages, 796243 bytes).
 PDF statistics:
- 84 PDF objects out of 1000 (max. 8388607)
- 62 compressed objects within 1 object stream
+ 90 PDF objects out of 1000 (max. 8388607)
+ 65 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 23 words of extra memory for PDF output out of 10000 (max. 10000000)
 
