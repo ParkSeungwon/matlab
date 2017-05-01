@@ -1,8 +1,11 @@
-t = [0:0.01:2*pi];
-x = exp(j * t);
-B = [1 3;2 4]
-plot(real(x), imag(x), '-r*')
-cx = [real(x); imag(x)];
-z = B * cx;
+k = 1
+h(1) = 10
+delta = 0.01
+for t = [0:delta:1]
+	h(k+1) = 0.5* h(k) + delta;
+	k += 1;
+end
+t = [0:delta:1];
+plot(t, h(1:end-1))
+print -depsc tt.eps
 hold on
-plot(z(1,:), z(2,:))

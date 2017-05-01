@@ -59,10 +59,6 @@ $\dfrac{dm}{dt}=\rho A \dfrac{dh}{dt}=q_{mi}-q_{mo}$
 \displaystyle
 q_{mo} = q_{mi} - \rho A \frac{dh}{dt}=\frac{1}{R}P = \frac{\rho h(t)}{R}\\
 q_{mi}-\rho A \frac{dh(t)}{dt} = \frac{\rho h(t)}{R}\\
-\frac{1}{A}(\frac{q_{mi}}{\rho} - \frac{h(t)}{R}) =  \frac{dh(t)}{dt} =
-\frac{h(t+\Delta t)-h(t)}{\Delta t} \\
-h(t + \Delta t) = \frac{\Delta t}{A}(\frac{q_{mi}}{\rho} - \frac{h(t)}{R}) + h(t)\\
-h(k+1) = \frac{\Delta t}{A}(\frac{q_{mi}}{\rho} - \frac{h(k)}{R}) + h(k)\\
 \end{gather*}
 
 \subsection{Find a DE for the following circuits.}
@@ -77,13 +73,23 @@ V = L\frac{dI(t)}{dt}\\
 C\frac{dV(t)}{dt} = I(t) 
 \end{gather*}
 
-	\includegraphics[width=\textwidth]{2.png}
-	
+\includegraphics[width=\textwidth]{2.png}
+\begin{gather*}
+V_s(t) = V_{C1}(t) = V_{C2}(t) = V_{R1}(t) = V_{R2}(t)\\
+I_s(t) = I_{C1}(t) + I_{C2}(t) + I_{R1}(t) + I_{R2}(t)\\
+I_s(t) = C1\frac{dV_{C1}(t)}{dt} + C2\frac{dV_{C2}(t)}{dt} + \frac{V_{R1}(t)}{R1} + \frac{V_{R2}(t)}{R2}\\
+\because Q = CV = \int I(t)\\
+C\frac{dV}{dt} = I(t)\\
+I_s(t) = C1\frac{dV_{s}(t)}{dt} + C2\frac{dV_{s}(t)}{dt} + \frac{V_{s}(t)}{R1} + \frac{V_{s}(t)}{R2}\\
+\end{gather*}	
 	
 \subsubsection{}
-	\includegraphics[width=\textwidth]{3.png}	
-	
-	
+\includegraphics[width=\textwidth]{3.png}	
+\begin{gather*}
+V_s(t) = V_{L1}(t) + V_{L2}(t) + V_{R1}(t) + V_{R2}(t)\\
+V_s(t) = L1\frac{dI(t)}{dt} + L2\frac{dI(t)}{dt} + I(t)R1 + I(t)R2
+\end{gather*}
+
 	
 	
 	
