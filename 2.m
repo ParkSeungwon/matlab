@@ -8,4 +8,5 @@ for x  = [0:delta:10]
 	z(k+1) = -delta * (2 * z(k) + y(k)) + z(k);
 	k = k+1;
 end
-plot(t, y(1,end-1), '.')
+plot(t, y(1:end-1))
+print -depsc tt.eps

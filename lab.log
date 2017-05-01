@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.7.8)  1 MAY 2017 16:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.7.8)  1 MAY 2017 18:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1251,16 +1251,16 @@ LaTeX Font Warning: Font shape `LUC/uhcmj/b/n' undefined
 
 (./1.m
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 9.
+(Font)              scaled to size 12.0pt on input line 8.
 LaTeX Font Info:    Try loading font information for TS1+LinuxLibertineT-TLF on
- input line 10.
+ input line 9.
 
 (/usr/share/texlive/texmf-dist/tex/latex/libertine/TS1LinuxLibertineT-TLF.fd
 File: TS1LinuxLibertineT-TLF.fd 2012/11/26 (autoinst) Font definitions for TS1/
 LinuxLibertineT-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 10.
+(Font)              scaled to size 12.0pt on input line 9.
 )
 <11.png, id=23, 578.16pt x 433.62pt>
 File: 11.png Graphic file (type png)
@@ -1286,10 +1286,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 17964 strings out of 493029
- 329632 string characters out of 6136235
- 456212 words of memory out of 5000000
- 21069 multiletter control sequences out of 15000+600000
+ 17966 strings out of 493029
+ 329649 string characters out of 6136235
+ 460212 words of memory out of 5000000
+ 21071 multiletter control sequences out of 15000+600000
  33773 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,13n,72p,620b,1821s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1315,7 +1315,7 @@ b></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd3.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd5.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd7.pfb></usr/s
 hare/texlive/texmf-dist/fonts/type1/uhc/umj/umj01.pfb>
-Output written on lab.pdf (4 pages, 829363 bytes).
+Output written on lab.pdf (4 pages, 829626 bytes).
 PDF statistics:
  113 PDF objects out of 1000 (max. 8388607)
  79 compressed objects within 1 object stream
