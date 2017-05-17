@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.7.8)  2 MAY 2017 14:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.7.8)  17 MAY 2017 13:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1241,41 +1241,113 @@ LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
 (Font)              scaled to size 14.4pt on input line 52.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
 (Font)              scaled to size 12.0pt on input line 53.
- [2] (./lab.aux) ) 
+ (./1.m
+LaTeX Font Info:    Try loading font information for TS1+LinuxLibertineT-TLF on
+ input line 2.
+
+(/usr/share/texlive/texmf-dist/tex/latex/libertine/TS1LinuxLibertineT-TLF.fd
+File: TS1LinuxLibertineT-TLF.fd 2012/11/26 (autoinst) Font definitions for TS1/
+LinuxLibertineT-TLF.
+)
+LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 12.0pt on input line 2.
+)
+Package epstopdf Info: Source file: <1.eps>
+(epstopdf)                    date: 2017-05-17 13:51:26
+(epstopdf)                    size: 115855 bytes
+(epstopdf)             Output file: <1-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-04-05 11:36:24
+(epstopdf)                    size: 4445 bytes
+(epstopdf)             Command: <repstopdf --outfile=1-eps-converted-to.pdf 1.e
+ps>
+(epstopdf)             \includegraphics on input line 57.
+runsystem(repstopdf --outfile=1-eps-converted-to.pdf 1.eps)...executed safely (
+allowed).
+
+Package epstopdf Info: Result file: <1-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-05-17 13:51:31
+(epstopdf)                    size: 33005 bytes.
+
+<1-eps-converted-to.pdf, id=23, 578.16pt x 434.62375pt>
+File: 1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 1-eps-converted-to.pdf>
+Package pdftex.def Info: 1-eps-converted-to.pdf used on input line 57.
+(pdftex.def)             Requested size: 432.48355pt x 325.1115pt.
+ [2 <./1-eps-converted-to.pdf>] (./4.m)
+Package epstopdf Info: Source file: <a.eps>
+(epstopdf)                    date: 2017-05-17 13:46:10
+(epstopdf)                    size: 59556 bytes
+(epstopdf)             Output file: <a-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-05-17 13:46:32
+(epstopdf)                    size: 23693 bytes
+(epstopdf)             Command: <repstopdf --outfile=a-eps-converted-to.pdf a.e
+ps>
+(epstopdf)             \includegraphics on input line 63.
+Package epstopdf Info: Output file is already uptodate.
+
+<a-eps-converted-to.pdf, id=36, 578.16pt x 434.62375pt>
+File: a-eps-converted-to.pdf Graphic file (type pdf)
+
+<use a-eps-converted-to.pdf>
+Package pdftex.def Info: a-eps-converted-to.pdf used on input line 63.
+(pdftex.def)             Requested size: 432.48355pt x 325.1115pt.
+ (./2.m [3 <./a-eps-converted-to.pdf>])
+Package epstopdf Info: Source file: <2.eps>
+(epstopdf)                    date: 2017-05-17 13:38:03
+(epstopdf)                    size: 42113 bytes
+(epstopdf)             Output file: <2-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-05-17 13:38:41
+(epstopdf)                    size: 5868 bytes
+(epstopdf)             Command: <repstopdf --outfile=2-eps-converted-to.pdf 2.e
+ps>
+(epstopdf)             \includegraphics on input line 75.
+Package epstopdf Info: Output file is already uptodate.
+
+<2-eps-converted-to.pdf, id=51, 578.16pt x 434.62375pt>
+File: 2-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 2-eps-converted-to.pdf>
+Package pdftex.def Info: 2-eps-converted-to.pdf used on input line 75.
+(pdftex.def)             Requested size: 432.48355pt x 325.1115pt.
+ [4 <./2-eps-converted-to.pdf>] (./lab.aux) ) 
 Here is how much of TeX's memory you used:
- 17185 strings out of 493029
- 320823 string characters out of 6136235
- 414212 words of memory out of 5000000
- 20320 multiletter control sequences out of 15000+600000
- 29179 words of font info for 78 fonts, out of 8000000 for 9000
+ 17940 strings out of 493029
+ 329452 string characters out of 6136235
+ 467213 words of memory out of 5000000
+ 21056 multiletter control sequences out of 15000+600000
+ 30186 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,13n,72p,470b,480s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn
-_lu7m2n.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_c7kyj
-5.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinLibertineT
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinLibertineTB
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/nanumtype1/nanummjmb1.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/nanumtype1/nanummjmb9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-nanumtype1/nanummjmbc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nan
-umtype1/nanummjmc1.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumt
-ype1/nanummjmc2.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype
-1/nanummjmc6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/n
-anummjmc7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanu
-mmjmc8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummj
-md1.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd3
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd5.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd7.pfb>
-Output written on lab.pdf (2 pages, 795644 bytes).
+ 62i,13n,72p,470b,1821s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fon
+ts/enc/dvips/libertine/lbtn_naooyc.enc}{/usr/share/texlive/texmf-dist/fonts/enc
+/dvips/libertine/lbtn_lu7m2n.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips
+/libertine/lbtn_c7kyj5.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/li
+bertine/LinLibertineT.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lib
+ertine/LinLibertineTB.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
+i8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/nanumtype1/nanummjmb1.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/nanumtype1/nanummjmb9.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/nanumtype1/nanummjmbc.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/nanumtype1/nanummjmc1.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/nanumtype1/nanummjmc2.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/nanumtype1/nanummjmc6.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/nanumtype1/nanummjmc7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+nanumtype1/nanummjmc8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nan
+umtype1/nanummjmd1.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumt
+ype1/nanummjmd3.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype
+1/nanummjmd5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/n
+anummjmd7.pfb>
+Output written on lab.pdf (4 pages, 864105 bytes).
 PDF statistics:
- 101 PDF objects out of 1000 (max. 8388607)
- 74 compressed objects within 1 object stream
+ 132 PDF objects out of 1000 (max. 8388607)
+ 96 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 33 words of extra memory for PDF output out of 10000 (max. 10000000)
 

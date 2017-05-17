@@ -1,14 +1,6 @@
-k = 1
-delta = 0.01
-h(1) = 10
-A = 10
-qmi = 25
-r = 2
-R = 5
-for t = [0:delta:1000]
-	h(k+1) = delta / A * (qmi / r - h(k) / R) + h(k);
-	k = k + 1;
-end
-t = [0:delta:1000];
-plot(t, h(1:end-1))
-print -depsc tt.eps
+f = [10:50:100000];
+w = 2*pi*f;
+h1 =abs(1 ./ (1+(j*w)/4000));
+h2 = abs(1 ./ (1 + 2000./(j*w)));
+h3 = abs(1 ./ ( j.*w./3000 + 1000./(j.*w) .+ 1));
+semilogx(w, h1, w, h2, w, h3)

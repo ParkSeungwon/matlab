@@ -53,13 +53,24 @@
 \subsubsection{$H(s) = \dfrac{1}{1+\dfrac{s}{4000}}$}
 \subsubsection{$H(s) = \dfrac{1}{1+\dfrac{2000}{s}}$}
 \subsubsection{$H(s) = \dfrac{1}{1+\dfrac{s}{3000}+\dfrac{1000}{s}}$}
-
-\subsection{Plot x(t)}
-\subsubsection{$x(t)=1+e^{-\xi\omega_0 t sin(\sqrt{1-\xi^2})\omega_0 t-\dfrac{\pi}{3}}\quad if\quad \xi=0.1, \omega_0=2\pi 100$}
-\subsubsection{$x(t)=1+e^{-\omega_0 t}+tr^{-\omega_0 t} \quad when \quad \omega_0=2\pi 10$}
+\lstinputlisting{1.m}
+\includegraphics[width=0.8\textwidth]{1.eps}
+\subsection{Plot x(t), t = [0:0.0001:0.1]}
+\subsubsection{$x(t)=1+e^{-\xi\omega_0 t} \sin{(\sqrt{1-\xi^2}\omega_0 t-\dfrac{\pi}{3})}\quad if\quad \xi=0.1, \omega_0=2\pi 100$}
+\subsubsection{$x(t)=1+e^{-\omega_0 t}+te^{-\omega_0 t} \quad when \quad \omega_0=2\pi 10$}
 \subsubsection{$x(t)=1+2e^{-\omega_0 t} \quad when \quad \omega_0=2\pi 10$}
+\lstinputlisting{4.m}
+\includegraphics[width=0.8\textwidth]{a.eps}
 
 \subsection{The system has the following system differential equation:\\
 $y''+5y'+4y=x, y(0)=1, y'(0)=0$\\
 Find H(s) and draw $\mid H(jw)\mid$ as a function of w}
+
+$s^2Y(s) + 5sY(s) + 4Y(s) = X(s)\\
+H(s) = \dfrac{1}{s^2+5s+4}\\
+H(jw) = \dfrac{1}{-w^2+5jw+4}\\
+|H(jw)|=\dfrac{1}{\sqrt{(4-w^2)^2-25w^2}}$
+\vspace{1cm}
+\lstinputlisting{2.m}
+\includegraphics[width=0.8\textwidth]{2.eps}
 \end{document}

@@ -1,8 +1,6 @@
-X = [2;1]
-plot(X(1,1),X(2,1),'r*'),axis([-10 10 -10 10])
-A = [cos(pi/4) -sin(pi/4);sin(pi/4) cos(pi/4)]
-hold on
-Y = A * X
-plot(Y(1,1),Y(2,1),'bo')
-[vec, val] = eig(A)
-print -depsc 4.eps
+t = [0:0.0001:0.1];
+xt = 1 + exp(-0.1 * 2* pi * 100 * t) .* sin(sqrt(1-0.01) * 2* pi * 100 * t - pi/3);
+xt2 = 1 .+ (t +1 ) .* exp(t * -2 * pi * 10);
+xt3 = 1 .+ 2 .* exp(t * -2 * pi * 10);
+plot(t, xt, t, xt2, t, xt3)
+

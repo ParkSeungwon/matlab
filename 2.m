@@ -1,12 +1,4 @@
-delta = 0.01
-t = [0:delta:10];
-z(1) = 3;
-y(1) = 1;
-k = 1
-for x  = [0:delta:10]
-	y(k+1) = delta * z(k) + y(k);
-	z(k+1) = -delta * (2 * z(k) + y(k)) + z(k);
-	k = k+1;
-end
-plot(t, y(1:end-1))
-print -depsc tt.eps
+f = [10:50:100000];
+w = 2*pi*f;
+h = abs(1 ./ sqrt((4 - w.^2).^2 .- (25 * w.^2)));
+semilogx(w, h)
