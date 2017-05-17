@@ -50,49 +50,88 @@
 \renewcommand{\thesubsection}{\arabic{subsection}.}
 \newpage
 
-\section*{Chapter 8 Homework}
-\subsection{If the outlet is a pipe that discharges to atmospheric pressure pa and provides a resistance, R, to flow that is proportional to the pressure difference across its ends, then find the outlet flow rate qmo and the differential equation of h(t).  Hint: qmo is (1/R)* (the pressure difference across its ends) } 
-	
-\includegraphics[width=0.5\textwidth]{1.png}
-$\dfrac{dm}{dt}=\rho A \dfrac{dh}{dt}=q_{mi}-q_{mo}$
-\begin{gather*}
+\section*{Chapter 9 Homework}
+\subsection{Solve the Laplace transformations of the following functions using the tables. } 
+\subsubsection{$L[5]$}
+$
 \displaystyle
-q_{mo} = q_{mi} - \rho A \frac{dh}{dt}=\frac{1}{R}P = \frac{\rho h(t)}{R}\\
-q_{mi}-\rho A \frac{dh(t)}{dt} = \frac{\rho h(t)}{R}\\
-\end{gather*}
+\int_0^{\infty}5e^{-st}dt = \left[\frac{5}{-s}e^{-st}\right]_0^\infty
+=\frac{5}{s}
+$
+\subsubsection{$L[5e^{-3t}]$}
+$\displaystyle
+\int_0^\infty 5e^{-3t}e^{-st}dt=\int_0^\infty 5e^{-(s+3)t}dt=\frac{5}{s+3}
+$
+\subsubsection{$L[cos(5t)]$}
+$\displaystyle
+cos5t = \frac{cos5t + isin5t + cos(-5t)+ isin(-5t)}{2}
+=\frac{e^{i5t}+e^{-i5t}}{2}\\
+\int_0^\infty cos(5t)e^{-st}dt=\frac{1}{2}\int_{0}^{\infty}(e^{i5t}+e^{-i5t})e^{-st}dt
+=\frac{1}{2}\int_{0}^{\infty}(e^{(i5-s)t}+e^{(-i5-s)t})dt
+=\frac{1}{2}\left[\frac{e^{(5i-s)t}}{5i-s}-\frac{e^{-(s+5i)t}}{s+5i}\right]_0^\infty=\frac{1}{2}(\frac{1}{-s+5i}-\frac{1}{s+5i})=\frac{s}{s^2+25}
+$
+\subsubsection{$L[5e^{-3t}cos(5t+1)]$}
+$\displaystyle
+\int_0^\infty 5e^{-3t}\frac{e^{i(5t+1)}+e^{-i(5t+1)}}{2}e^{-st}dt
+=\frac{5}{2}\int_0^\infty e^{(5i-s-3)t+i}+e^{(-5i-s-3)t-i}dt
+=\frac{5}{2}\left[\frac{e^{(5i-s-3)t+i}}{5i-s-3}+\frac{e^{(-5i-s-3)t-i}}{-5i-s-3}\right]_0^\infty
+=\frac{5}{2}(-\frac{e^i}{5i-s-3}-\frac{e^{-i}}{-5i-s-3})
+$
+\subsubsection{$L[sin(5t)]$}
+$\displaystyle
+sin5t = -\frac{i}{2}(cos5t+isin5t-(cos(-5t)+isin(-5t)))
+=-\frac{i}{2}(e^{i5t}-e^{-i5t})\\
+\int_0^\infty sin(5t)e^{-3t}dt=\int_0^\infty -\frac{i}{2}(e^{i5t}-e^{-i5t})e^{-3t}dt
+$
+\subsubsection{$L[t^2sin(2t)]$}
+$\displaystyle
+\int_0^\infty t^2sin(2t)dt=-\frac{i}{2}\int_0^\infty t^2(e^{i2t}-e^{-i2t})dt
+=\\
+(e^{i2t}t^2)'=2ie^{i2t}t^2+e^{i2t}2t\\
+e^{i2t}t^2=2\int e^{i2t}t^2 + e^{i2t}\\
+\therefore \int e^{i2t}t^2 = \frac{e^{i2t}(t^2-1)}{2}\\
+t \leftarrow -t : \int e^{-i2t}t^2 = \frac{e^{-i2t}(t^2-1)}{2}\\
+-\frac{i}{2}\left[\frac{e^{i2t}(t^2-1)}{2} - \frac{e^{-i2t}(t^2-1)}{2}\right]_0^\infty=-\frac{i}{2}
+$
+\subsubsection{$L[\dfrac{d}{dt}sin(6t)]$}
+$\displaystyle
+(f(x)e^{-st})' = f'(x)e^{-st}+f(x)\cdot -se^{-st}\\
+\int\frac{d}{dt}f(x)e^{-st}dt=f(x)e^{-st}+s\int f(x)e^{-st}\\
+\therefore L[\dfrac{d}{dt}sin(6t)]=sin(6t)e^{-st}+s\int sin(6t)e^{-st}dt
+$
+\subsubsection{$L[\int_0^tydt]$}
+$\displaystyle 
+F(t)=\int_0^t f(u)du\\
+\int_0^\infty \int_0^t f(u)du \cdot e^{-st}dt = 
+\left[\int_0^t f(u)du\cdot \frac{e^{-st}}{-s}\right]_0^\infty 
+- \int_0^\infty f(t)\frac{e^{-st}}{-s}dt = \frac{F(s)}{s}
+$
+\subsubsection{$L[u(t-1)-u(t-2)]$}
+\subsubsection{$L[e^{-2t}u(t-2)]$}
+\subsubsection{$L[6e^{-2.7t}cos(9.2t+3)]$}
 
-\subsection{Find a DE for the following circuits.}
-\subsubsection{}
-\begin{gather*}
-\displaystyle
-Q = CV\\
-V= \frac{Q}{C}\\
-V(t) = \frac{1}{C}\int_{t_0}^{t} I(t) + V(t_0)\\
-\because Q = \int_{t_0}^t I(t)\\
-V = L\frac{dI(t)}{dt}\\
-C\frac{dV(t)}{dt} = I(t) 
-\end{gather*}
+\subsection{Solve the inverse Laplace transformations using the tables..}
+\subsubsection{$L^{-1}[\dfrac{5}{s+1}]$}
+$5e^{-t}$
+\subsubsection{$L^{-1}[\dfrac{6}{s^2}]$}
+$6t$
+\subsubsection{$L^{-1}[\dfrac{s+2}{(s+3)(s+4)}]$}
+$\dfrac{-1}{s+3}+\dfrac{2}{s+4}\longrightarrow -e^{-3t}+2e^{-4t}$
+\subsubsection{$L^{-1}[\dfrac{6}{-s^2+6}]$}
+$-\dfrac{\sqrt{6}}{2}(\dfrac{1}{s+\sqrt{6}}-\dfrac{1}{s-\sqrt{6}})
+\longrightarrow -\dfrac{\sqrt{6}}{2}(e^{-\sqrt{6}t} - e^{\sqrt{6}t})$
+\subsubsection{$L^{-1}[\dfrac{5}{s}(1-e^{-4.5s})]---not solved$}
+$\dfrac{5}{s}-\dfrac{e^{-4.5s}}{s}\longrightarrow 5 - \dfrac{F(s)}{s}\\
+e^{-4.5s}=F(s)$
+\subsubsection{$L^{-1}[\dfrac{4+3j}{s+1-2j}+\dfrac{4-3j}{s+1+2j}]$}
+$$
+\subsubsection{$L^{-1}[\dfrac{6}{4s^2+20s+24}]$}
 
-\includegraphics[width=\textwidth]{2.png}
-\begin{gather*}
-V_s(t) = V_{C1}(t) = V_{C2}(t) = V_{R1}(t) = V_{R2}(t)\\
-I_s(t) = I_{C1}(t) + I_{C2}(t) + I_{R1}(t) + I_{R2}(t)\\
-I_s(t) = C1\frac{dV_{C1}(t)}{dt} + C2\frac{dV_{C2}(t)}{dt} + \frac{V_{R1}(t)}{R1} + \frac{V_{R2}(t)}{R2}\\
-\because Q = CV = \int I(t)\\
-C\frac{dV}{dt} = I(t)\\
-I_s(t) = C1\frac{dV_{s}(t)}{dt} + C2\frac{dV_{s}(t)}{dt} + \frac{V_{s}(t)}{R1} + \frac{V_{s}(t)}{R2}\\
-\end{gather*}	
-	
-\subsubsection{}
-\includegraphics[width=\textwidth]{3.png}	
-\begin{gather*}
-V_s(t) = V_{L1}(t) + V_{L2}(t) + V_{R1}(t) + V_{R2}(t)\\
-V_s(t) = L1\frac{dI(t)}{dt} + L2\frac{dI(t)}{dt} + I(t)R1 + I(t)R2
-\end{gather*}
+\subsection{Solve the inverse Laplace transformations using partial fractions and the tables}
+\subsubsection{$L^{-1}[\dfrac{1}{s^2-8s+25}]$}
+\subsubsection{$L^{-1}[\dfrac{9s+4}{(s+3)^3}]$}
 
-	
-	
-	
-	
-
+\subsection{Find the system transfer functions of the following DE's.}
+\subsubsection{$5\dfrac{d^2y}{dt^2}+6\dfrac{dy}{dt}+2y=5x(t)$}
+\subsubsection{$\dfrac{dy}{dt}+8y=3x$}
 \end{document}
