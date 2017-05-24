@@ -47,30 +47,18 @@
 \renewcommand{\thesubsubsection}{\alph{subsubsection})}
 \renewcommand{\thesubsection}{\arabic{subsection}.}
 \newpage
-\section*{Chapter 9 Lab Assignment}
+\section*{Chapter 10 Lab Assignment}
 
-\subsection{Plot the absolute values of the transfer functions H(s) as the input frequency changes from 10 to 100000 and its interval of 50.  Also indicate what kind of filters they are and their cutoff frequencies.  Use log10 scale for angular frequency.}
-\subsubsection{$H(s) = \dfrac{1}{1+\dfrac{s}{4000}}$}
-\subsubsection{$H(s) = \dfrac{1}{1+\dfrac{2000}{s}}$}
-\subsubsection{$H(s) = \dfrac{1}{1+\dfrac{s}{3000}+\dfrac{1000}{s}}$}
-\lstinputlisting{1.m}
-\includegraphics[width=0.8\textwidth]{1.eps}
-\subsection{Plot x(t), t = [0:0.0001:0.1]}
-\subsubsection{$x(t)=1+e^{-\xi\omega_0 t} \sin{(\sqrt{1-\xi^2}\omega_0 t-\dfrac{\pi}{3})}\quad if\quad \xi=0.1, \omega_0=2\pi 100$}
-\subsubsection{$x(t)=1+e^{-\omega_0 t}+te^{-\omega_0 t} \quad when \quad \omega_0=2\pi 10$}
-\subsubsection{$x(t)=1+2e^{-\omega_0 t} \quad when \quad \omega_0=2\pi 10$}
-\lstinputlisting{4.m}
-\includegraphics[width=0.8\textwidth]{a.eps}
-
-\subsection{The system has the following system differential equation:\\
-$y''+5y'+4y=x, y(0)=1, y'(0)=0$\\
-Find H(s) and draw $\mid H(jw)\mid$ as a function of w}
-
-$s^2Y(s) + 5sY(s) + 4Y(s) = X(s)\\
-H(s) = \dfrac{1}{s^2+5s+4}\\
-H(jw) = \dfrac{1}{-w^2+5jw+4}\\
-|H(jw)|=\dfrac{1}{\sqrt{(4-w^2)^2-25w^2}}$
-\vspace{1cm}
-\lstinputlisting{2.m}
-\includegraphics[width=0.8\textwidth]{2.eps}
+\subsection{The Fourier Series of the following function is as follows: .}
+\begin{gather*}
+f(t) = \frac{4}{\pi}\sin t + \frac{4}{\pi} \frac{\sin (3t)}{3} + \frac{4}{\pi} \frac{\sin (5t)}{5}+\frac{4}{\pi}\frac{\sin (7t)}{7}
+\end{gather*} 
+\subsubsection{Define a variable t having 201 points between –ㅠ and ㅠ using MATLAB.}
+\subsubsection{Define a variable  $a_1 = \dfrac{4}{\pi}\sin t$              having 201 points between –ㅠ and ㅠ	using a variable t defined in (a) and plot it.}
+\subsubsection{Define a variable $a_3 = \dfrac{4}{\pi}\dfrac{\sin(3t)}{3}$  having 201 points between –ㅠ and ㅠ
+	using a variable t defined in (a) and plot it over the figure in (b).}
+\subsubsection{Define a variable  $f_2(t)=a_1(t)+a_3(t)$   having 201 points between –ㅠ and ㅠ and plot it over the figure in (b).}
+\subsubsection{Define a variable $a_5 = \dfrac{4}{\pi}\dfrac{\sin(5t)}{5} $  having 201 points between –ㅠ and ㅠ using a variable t defined in (a) and plot it over the figure in (b).}
+\subsubsection{Define a variable $f_3(t)=f_2(t)+a_5(t) $   having 201 points between –ㅠ and ㅠ and plot it over the figure in (b).}
+\subsubsection{Define a variable    $f_N(t)$   that add the first N items of the Fourier Series having 201 points between –ㅠ and ㅠ and plot it over the figure in (b) by programming a loop of N=100.}
 \end{document}

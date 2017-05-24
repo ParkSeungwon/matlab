@@ -50,107 +50,24 @@
 \renewcommand{\thesubsection}{\arabic{subsection}.}
 \newpage
 
-\section*{Chapter 9 Homework}
-\subsection{Solve the Laplace transformations of the following functions using the tables. } 
-\subsubsection{$L[5]$}
-$
-\displaystyle
-\int_0^{\infty}5e^{-st}dt = \left[\frac{5}{-s}e^{-st}\right]_0^\infty
-=\frac{5}{s}
-$
-\subsubsection{$L[5e^{-3t}]$}
-$\displaystyle
-\int_0^\infty 5e^{-3t}e^{-st}dt=\int_0^\infty 5e^{-(s+3)t}dt=\frac{5}{s+3}
-$
-\subsubsection{$L[cos(5t)]$}
-$\displaystyle
-cos5t = \frac{cos5t + isin5t + cos(-5t)+ isin(-5t)}{2}
-=\frac{e^{i5t}+e^{-i5t}}{2}\\
-\int_0^\infty cos(5t)e^{-st}dt=\frac{1}{2}\int_{0}^{\infty}(e^{i5t}+e^{-i5t})e^{-st}dt
-=\frac{1}{2}\int_{0}^{\infty}(e^{(i5-s)t}+e^{(-i5-s)t})dt
-=\frac{1}{2}\left[\frac{e^{(5i-s)t}}{5i-s}-\frac{e^{-(s+5i)t}}{s+5i}\right]_0^\infty=\frac{1}{2}(\frac{1}{-s+5i}-\frac{1}{s+5i})=\frac{s}{s^2+25}
-$
-\subsubsection{$L[5e^{-3t}cos(5t+1)]$}
-$\displaystyle
-\int_0^\infty 5e^{-3t}\frac{e^{i(5t+1)}+e^{-i(5t+1)}}{2}e^{-st}dt
-=\frac{5}{2}\int_0^\infty e^{(5i-s-3)t+i}+e^{(-5i-s-3)t-i}dt
-=\frac{5}{2}\left[\frac{e^{(5i-s-3)t+i}}{5i-s-3}+\frac{e^{(-5i-s-3)t-i}}{-5i-s-3}\right]_0^\infty
-=\frac{5}{2}(-\frac{e^i}{5i-s-3}-\frac{e^{-i}}{-5i-s-3})
-$
-\subsubsection{$L[sin(5t)]$}
-$\displaystyle
-sin5t = -\frac{i}{2}(cos5t+isin5t-(cos(-5t)+isin(-5t)))
-=-\frac{i}{2}(e^{i5t}-e^{-i5t})\\
-\int_0^\infty sin(5t)e^{-3t}dt=\int_0^\infty -\frac{i}{2}(e^{i5t}-e^{-i5t})e^{-3t}dt
-$
-\subsubsection{$L[t^2sin(2t)]$}
-$\displaystyle
-\int_0^\infty t^2sin(2t)dt=-\frac{i}{2}\int_0^\infty t^2(e^{i2t}-e^{-i2t})dt
-=\\
-(e^{i2t}t^2)'=2ie^{i2t}t^2+e^{i2t}2t\\
-e^{i2t}t^2=2\int e^{i2t}t^2 + e^{i2t}\\
-\therefore \int e^{i2t}t^2 = \frac{e^{i2t}(t^2-1)}{2}\\
-t \leftarrow -t : \int e^{-i2t}t^2 = \frac{e^{-i2t}(t^2-1)}{2}\\
--\frac{i}{2}\left[\frac{e^{i2t}(t^2-1)}{2} - \frac{e^{-i2t}(t^2-1)}{2}\right]_0^\infty=-\frac{i}{2}
-$
-\subsubsection{$L[\dfrac{d}{dt}sin(6t)]$}
-$\displaystyle
-(f(x)e^{-st})' = f'(x)e^{-st}+f(x)\cdot -se^{-st}\\
-\int\frac{d}{dt}f(x)e^{-st}dt=f(x)e^{-st}+s\int f(x)e^{-st}\\
-\therefore L[\dfrac{d}{dt}sin(6t)]=sin(6t)e^{-st}+s\int sin(6t)e^{-st}dt
-$
-\subsubsection{$L[\int_0^tydt]$}
-$\displaystyle 
-F(t)=\int_0^t f(u)du\\
-\int_0^\infty \int_0^t f(u)du \cdot e^{-st}dt = 
-\left[\int_0^t f(u)du\cdot \frac{e^{-st}}{-s}\right]_0^\infty 
-- \int_0^\infty f(t)\frac{e^{-st}}{-s}dt = \frac{F(s)}{s}=\frac{1}{s^3}\\
-\because L[y] = \dfrac{1}{s^2}
-$
-\subsubsection{$L[u(t-1)-u(t-2)]$}
-$\displaystyle =\int_1^2 e^{-st}dt=\left[\frac{e^{-st}}{-s}\right]_1^2$
-\subsubsection{$L[e^{-2t}u(t-2)]$}
-$\displaystyle = \int_2^\infty e^{-(2+s)t}dt=\left[\frac{e^{-(2+s)t}}{-2-s}\right]_2^\infty$
-\subsubsection{$L[6e^{-2.7t}cos(9.2t+3)]$}
-$\displaystyle L[\cos (9.2t)] = \frac{9.2}{s^2+9.2^2}\\
-L[6e^{-2.7t}cos(9.2t+3)]=\frac{9.2\times 6}{(s+2.7)^2+9.2^2}$
-\subsection{Solve the inverse Laplace transformations using the tables..}
-\subsubsection{$L^{-1}[\dfrac{5}{s+1}]$}
-$5e^{-t}$
-\subsubsection{$L^{-1}[\dfrac{6}{s^2}]$}
-$6t$
-\subsubsection{$L^{-1}[\dfrac{s+2}{(s+3)(s+4)}]$}
-$\dfrac{-1}{s+3}+\dfrac{2}{s+4}\longrightarrow -e^{-3t}+2e^{-4t}$
-\subsubsection{$L^{-1}[\dfrac{6}{-s^2+6}]$}
-$-\dfrac{\sqrt{6}}{2}(\dfrac{1}{s+\sqrt{6}}-\dfrac{1}{s-\sqrt{6}})
-\longrightarrow -\dfrac{\sqrt{6}}{2}(e^{-\sqrt{6}t} - e^{\sqrt{6}t})$
-\subsubsection{$L^{-1}[\dfrac{5}{s}(1-e^{-4.5s})]$}
-$\displaystyle L[f(x)g(x)] = F(s)G(s)\\
-L^{-1}\left[\dfrac{5}{s} \right]= 5\\
-\therefore \delta (t) - \frac{5}{s+4.5}$
-\subsubsection{$L^{-1}[\dfrac{4+3j}{s+1-2j}+\dfrac{4-3j}{s+1+2j}]$}
-$\displaystyle 2|A|e^{-\alpha t}cos(\beta t + \theta) = 
-\frac{A}{s+\alpha - \beta j}+\frac{\bar{A}}{s+\alpha + \ beta j}\\
-10e^{-t}\cos (2t)$
-\subsubsection{$L^{-1}[\dfrac{6}{4s^2+20s+24}]$}
-$\displaystyle \frac{6}{4(s+2)(s+3)}
-=\frac{3}{2}(\frac{1}{s+2}-\frac{1}{s+3})\\
-\therefore \frac{3}{2}(e^{-2t} - e^{-3t})$
-\subsection{Solve the inverse Laplace transformations using partial fractions and the tables}
-\subsubsection{$L^{-1}[\dfrac{1}{s^2-8s+25}]$}
-$\displaystyle \frac{1}{(s-4-3j)(s-4+3j)}=
-\frac{a+bj}{s-4-3j}+\frac{a-bj}{s-4+3j}\\
- a=0, b=-\frac{1}{6}\\
- \therefore \frac{1}{3}e^{-3t}cos(4t)$
-\subsubsection{$L^{-1}[\dfrac{9s+4}{(s+3)^3}]$}
-$\displaystyle \dfrac{9s+27-23}{(s+3)^3}=
-\frac{9}{(s+3)^2}+\frac{-23}{(s+3)^3}\\
-\therefore 9te^{-3t}-\frac{23}{2}t^2e^{-3t}$
-\subsection{Find the system transfer functions of the following DE's.}
-\subsubsection{$5\dfrac{d^2y}{dt^2}+6\dfrac{dy}{dt}+2y=5x(t)$}
-$5s^2Y(s)+6sY(s) + 2Y(s) = 5X(s)\\
-\therefore \dfrac{5}{5s^2+6s+2}$
-\subsubsection{$\dfrac{dy}{dt}+8y=3x$}
-$sY(s) + 8Y(s) = 3X(s)\\
-\therefore \dfrac{3}{s+8}$
+\section*{Chapter 10 Homework}
+\subsection{Find the Fourier series of the following functions. } 
+\includegraphics[width=\textwidth]{1.png}
+
+even function 
+\begin{gather*}
+f(t) = a_0 + b_1 \cos t + b_2 \cos 2t + \cdots\\
+a_0 = \int_{-\pi}^\pi f(t) dt = 0.2\\
+b_n = \int_{-\pi}^\pi f(t)\cos(nt) dt
+=\int_{-0.1}^{0.1}\cos(nt)dt
+=\left[\frac{1}{n}\sin(nt)\right]_{-0.1}^{0.1}
+=\frac{2}{n}\sin(0.1n) 
+\end{gather*}
+\includegraphics[width=\textwidth]{2.png}
+\begin{gather*}
+f(t) = a_0 + b_1 \cos \pi t + b_2 \cos 2\pi t+ \cdots\\
+a_0 = \int_{-1}^1 f(t) = 0;
+\end{gather*}
+\includegraphics[width=\textwidth]{3.png}
+\includegraphics[width=0.5\textwidth]{4.png}
 \end{document}
