@@ -1,3 +1,9 @@
-A = [2 -3 1;4 -1 2;5 -2 3]
-B = [1;3;-2]
-inv(A) * B
+function F = fourier(w)
+t = [-4:0.01:4];
+F = cumsum(exp(-j * w .* t)) * 0.01;
+end
+
+w = linspace(-2*pi, 2*pi, length(t));
+y = fourier(w);
+plot(w, abs(y));
+
