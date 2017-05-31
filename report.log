@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.7.8)  29 MAY 2017 13:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.7.8)  31 MAY 2017 09:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1240,81 +1240,45 @@ LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
 (Font)              scaled to size 17.28pt on input line 53.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
 (Font)              scaled to size 14.4pt on input line 54.
-
-<a.png, id=25, 607.26875pt x 261.97874pt>
-File: a.png Graphic file (type png)
- <use a.png>
-Package pdftex.def Info: a.png used on input line 55.
-(pdftex.def)             Requested size: 432.48355pt x 186.57785pt.
-
-<3.png, id=26, 381.5856pt x 272.4579pt>
-File: 3.png Graphic file (type png)
- <use 3.png>
-Package pdftex.def Info: 3.png used on input line 66.
-(pdftex.def)             Requested size: 432.48355pt x 308.81754pt.
-
-<b.png, id=28, 571.13374pt x 215.80624pt>
-File: b.png Graphic file (type png)
- <use b.png>
-Package pdftex.def Info: b.png used on input line 68.
-(pdftex.def)             Requested size: 432.48355pt x 163.41841pt.
- [2 <./a.png> <./3.png>]
-<4.png, id=41, 375.0813pt x 278.2395pt>
-File: 4.png Graphic file (type png)
- <use 4.png>
-Package pdftex.def Info: 4.png used on input line 84.
-(pdftex.def)             Requested size: 432.48355pt x 320.8348pt.
-
-<2.png, id=42, 347.79938pt x 154.32657pt>
-File: 2.png Graphic file (type png)
- <use 2.png>
-Package pdftex.def Info: 2.png used on input line 86.
-(pdftex.def)             Requested size: 432.48355pt x 191.91162pt.
- [3 <./b.png> <./4.png>]
-<5.png, id=48, 383.031pt x 257.2812pt>
-File: 5.png Graphic file (type png)
- <use 5.png>
-Package pdftex.def Info: 5.png used on input line 94.
-(pdftex.def)             Requested size: 432.48355pt x 290.52023pt.
- [4 <./2.png> <./5.png>]
-(./report.aux) ) 
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
+(Font)              scaled to size 12.0pt on input line 55.
+ [2] (./report.aux) ) 
 Here is how much of TeX's memory you used:
- 17217 strings out of 493029
- 321104 string characters out of 6136235
- 417199 words of memory out of 5000000
- 20344 multiletter control sequences out of 15000+600000
- 27959 words of font info for 77 fonts, out of 8000000 for 9000
+ 17188 strings out of 493029
+ 320894 string characters out of 6136235
+ 414199 words of memory out of 5000000
+ 20321 multiletter control sequences out of 15000+600000
+ 29566 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,13n,72p,473b,480s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_l
-u7m2n.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_c7kyj5.
-enc}</usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinLibertineT.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinLibertineTB.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/nanumtype1/nanummjmac.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/nanumtype1/nanummjmad.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/n
-anumtype1/nanummjmb0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanu
-mtype1/nanummjmb1.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumty
-pe1/nanummjmb9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1
-/nanummjmbc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/na
-nummjmbd.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanum
-mjmc2.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjm
-c6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc7.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc8.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc9.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd1.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd5.pfb>
-Output written on report.pdf (4 pages, 839298 bytes).
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/l
+btn_lu7m2n.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_c7
+kyj5.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinLiberti
+neT.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinLibertin
+eTB.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/nanumtype1/nanummjmac.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/nanumtype1/nanummjmad.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/nanumtype1/nanummjmb0.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/nanumtype1/nanummjmb1.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/nanumtype1/nanummjmb9.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/nanumtype1/nanummjmbc.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/nanumtype1/nanummjmbd.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/nanumtype1/nanummjmc2.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/n
+anumtype1/nanummjmc6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanu
+mtype1/nanummjmc7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumty
+pe1/nanummjmc8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1
+/nanummjmc9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/na
+nummjmd1.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanum
+mjmd5.pfb>
+Output written on report.pdf (2 pages, 755541 bytes).
 PDF statistics:
- 129 PDF objects out of 1000 (max. 8388607)
- 88 compressed objects within 1 object stream
+ 105 PDF objects out of 1000 (max. 8388607)
+ 77 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 48 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
