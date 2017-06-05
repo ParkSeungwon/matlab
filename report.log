@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.7.8)  31 MAY 2017 09:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.7.8)  2 JUN 2017 16:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1246,7 +1246,7 @@ LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
 Here is how much of TeX's memory you used:
  17188 strings out of 493029
  320894 string characters out of 6136235
- 414199 words of memory out of 5000000
+ 414198 words of memory out of 5000000
  20321 multiletter control sequences out of 15000+600000
  29566 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1275,7 +1275,7 @@ pe1/nanummjmc8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1
 /nanummjmc9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/na
 nummjmd1.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanum
 mjmd5.pfb>
-Output written on report.pdf (2 pages, 755541 bytes).
+Output written on report.pdf (2 pages, 755208 bytes).
 PDF statistics:
  105 PDF objects out of 1000 (max. 8388607)
  77 compressed objects within 1 object stream
