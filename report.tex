@@ -53,8 +53,35 @@
 \section*{Chapter 12 Homework}
 \subsection{Find the DTFT of the following functions. } 
 \subsubsection{$x[n] = 0.5^n u[n]$}
+\begin{gather*}
+F(w)=\sum_{k=-\infty}^{\infty}x[k]e^{-jwk}
+=\sum_{k=0}^{\infty}0.5^ke^{-jwk}
+\end{gather*}
 \subsubsection{$x[n] = -0.5^n u[n]$}
+\begin{gather*}
+F(w)=\sum_{k=-\infty}^{\infty}x[k]e^{-jwk}
+=\sum_{k=0}^{\infty}(-0.5)^ke^{-jwk}
+\end{gather*}
+
 \subsubsection{$x[n] = 1, |n|\leqq 2$}
+\begin{gather*}
+F(w)=\sum_{k=-\infty}^{\infty}x[k]e^{-jwk}
+=\sum_{k=-2}^{2}e^{-jwk}
+=\frac{e^{2jw}(1-e^{-j5w})}{1-e^{-jw}}
+\end{gather*}
+
 \subsubsection{$x[n]=\cos(\omega_0 n+\phi)$}
+\begin{gather*}
+F(w)=\sum_{k=-\infty}^{\infty}x[k]e^{-jwk}
+=\sum_{k=-\infty}^{\infty}\cos(w_0k + \phi)e^{-jwk}
+=\sum_{k=-\infty}^{\infty}\frac{1}{2}(e^{w_0k + \phi} + e^{-w_0k-\phi}) e^{-jwk}\\
+\end{gather*}
+
 \subsubsection{$x[n] = \sin(\omega_0 n)$}
+\begin{gather*}
+F(w)=\sum_{k=-\infty}^{\infty}x[k]e^{-jwk}
+=\sum_{k=-\infty}^{\infty}\sin(w_0k)e^{-jwk}
+=\sum_{k=-\infty}^{\infty}\frac{-j}{2}(e^{w_0k} - e^{-w_0k}) e^{-jwk}\\
+\end{gather*}
+
 \end{document}

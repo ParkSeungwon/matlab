@@ -9,12 +9,8 @@ Wmax = 2*pi;
 W =  n*Wmax/ max_limit;
 L = length(W);
 clear XW;
-XW = zeros(L);
 for k=[1:1:L]
-	XW(k) = x1 * exp(-j*n*W(k));
+	XW(k) = x1 * exp(-j*n'*W(k));
 end
 
-XW_Mag = abs(XW);
-plot(W, XW_Mag)
-XW_Phase = phase(XW);
-plot(W, XW_Phase)
+plot(W, abs(XW), W, angle(XW))
