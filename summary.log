@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.7.8)  7 JUN 2017 09:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.7.8)  11 JUN 2017 22:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**report.tex
-(./report.tex
+**summary.tex
+(./summary.tex
 LaTeX2e <2016/02/01>
 Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -1071,8 +1071,8 @@ Package: konames-utf 2015/07/06 v1.7 UTF-8 Hangul captions
 \dhucs@emph@width=\dimen175
 \useremphraisedim=\dimen176
 )))
-(./report.aux)
-\openout1 = `report.aux'.
+(./summary.aux)
+\openout1 = `summary.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
 LaTeX Font Info:    ... okay on input line 43.
@@ -1238,60 +1238,73 @@ LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 17.28pt on input line 53.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
 (Font)              scaled to size 17.28pt on input line 53.
+LaTeX Font Info:    Font shape `LUC/nanummj/b/n' in size <17.28> not available
+(Font)              Font shape `LUC/nanummj/bx/n' tried instead on input line 5
+3.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
 (Font)              scaled to size 14.4pt on input line 54.
-LaTeX Font Info:    Try loading font information for LUC+uhcmj on input line 54
-.
-
-(/usr/share/texlive/texmf-dist/tex/latex/kotex-utf/lucuhcmj.fd
-File: lucuhcmj.fd 2013/09/26 UHC Myeongjo font definitions
-)
-
-LaTeX Font Warning: Font shape `LUC/uhcmj/b/n' undefined
-(Font)              using `LUC/uhcmj/m/n' instead on input line 54.
-
-<1.png, id=25, 647.41875pt x 426.59375pt>
-File: 1.png Graphic file (type png)
- <use 1.png>
-Package pdftex.def Info: 1.png used on input line 56.
-(pdftex.def)             Requested size: 486.53883pt x 320.58893pt.
- [2 <./1.png>]
-(./report.aux)
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
- ) 
+LaTeX Font Info:    Font shape `LUC/nanummj/b/n' in size <14.4> not available
+(Font)              Font shape `LUC/nanummj/bx/n' tried instead on input line 5
+7.
+ [2] (./summary.aux) ) 
 Here is how much of TeX's memory you used:
- 17197 strings out of 493029
- 321068 string characters out of 6136235
- 414198 words of memory out of 5000000
- 20325 multiletter control sequences out of 15000+600000
- 27622 words of font info for 73 fonts, out of 8000000 for 9000
+ 17244 strings out of 493029
+ 321886 string characters out of 6136235
+ 417198 words of memory out of 5000000
+ 20357 multiletter control sequences out of 15000+600000
+ 37059 words of font info for 108 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,13n,72p,473b,480s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_lu7m2n.enc}{/us
-r/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_c7kyj5.enc}</usr/shar
-e/texlive/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/libertine/LinLibertineTB.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmac.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmad.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb0.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/nanumtype1/nanummjmb1.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/nanumtype1/nanummjmb9.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/nanumtype1/nanummjmbc.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/nanumtype1/nanummjmbd.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/nanumtype1/nanummjmc2.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/nanumtype1/nanummjmc6.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/nanumtype1/nanummjmc7.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/nanumtype1/nanummjmc8.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/nanumtype1/nanummjmc9.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/nanumtype1/nanummjmd1.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-nanumtype1/nanummjmd5.pfb></usr/share/texlive/texmf-dist/fonts/type1/uhc/umj/um
-j01.pfb>
-Output written on report.pdf (2 pages, 749629 bytes).
+ 62i,13n,72p,474b,480s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/
+lbtn_lu7m2n.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_c
+7kyj5.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinLibert
+ineT.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/libertine/LinLiberti
+neTB.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nan
+umtype1/nanummjbbb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumt
+ype1/nanummjbbc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype
+1/nanummjbbd.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/n
+anummjbbe.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanu
+mmjbc2.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummj
+bc8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjbcc
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmac.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmad.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmae.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb0.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb1.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb2.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb3.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb4.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb5.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/nanumtype1/nanummjmb8.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/nanumtype1/nanummjmb9.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/nanumtype1/nanummjmba.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/nanumtype1/nanummjmbb.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/nanumtype1/nanummjmbc.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/nanumtype1/nanummjmbd.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/nanumtype1/nanummjmbe.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/nanumtype1/nanummjmc0.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/nanumtype1/nanummjmc1.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/nanumtype1/nanummjmc2.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/na
+numtype1/nanummjmc5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanum
+type1/nanummjmc6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtyp
+e1/nanummjmc7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/
+nanummjmc8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nan
+ummjmc9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanumm
+jmd0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd
+1.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd5.p
+fb>
+Output written on summary.pdf (2 pages, 1573768 bytes).
 PDF statistics:
- 86 PDF objects out of 1000 (max. 8388607)
- 62 compressed objects within 1 object stream
+ 198 PDF objects out of 1000 (max. 8388607)
+ 146 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 23 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
